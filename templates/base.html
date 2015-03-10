@@ -112,15 +112,16 @@
                                         <!-- Collect the nav links, forms, and other content for toggling -->
                                         <div class="collapse navbar-collapse">
                                             <ul class="nav navbar-nav pi-nav">
-                                                <li class="dropdown pi-mega-fw current-menu-item">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">INICIO</a>
+                                                <li id="navbar1" class="dropdown pi-mega-fw current-menu-item">
+                                                    <a href="{% url '/index.html' %}" >INICIO</a>
                                                 </li><!-- MENU ITEM .dropdown end -->
 
-                                                <li class="dropdown"><a href="{% url '/servicios.html' %}" data-toggle="dropdown" class="dropdown-toggle">SERVICIOS</a>
-                                                </li><!-- MENU ITEM .dropdown.pi-mega-fw end -->
-                                                <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">ACERCA DE NOSOTROS</a>
+                                             <li id="navbar2" class="dropdown pi-mega-fw current-menu-item">
+                                                    <a href="{% url '/servicios.html' %}" >SERVICIOS</a>
                                                 </li>
-                                                <li class="dropdown pi-mega-fw"><a href="{% url 'servicios.html' %}" data-toggle="dropdown" class="dropdown-toggle">CONTÁCTENOS</a>
+                                                <li id="navbar3" class="dropdown"><a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
+                                                </li>
+                                                <li id="navbar4" class="dropdown pi-mega-fw"><a href="{% url '/contacto.html' %}" >CONTÁCTENOS</a>
                                                     
                                                 </li><!-- MENU ITEM .dropdown.pi-mega-fw end -->
 
@@ -131,16 +132,16 @@
                                                 <button class="dl-trigger">MENÚ</button>
                                                 <ul class="dl-menu">
                                                    <li>
-                                                        <a href="index.html">INICIO</a>
+                                                        <a href="{% url '/index.html' %}">INICIO</a>
                                                     </li>
                                                     <li>
-                                                        <a href="index.html">SERVICIOS</a>
+                                                        <a href="{% url '/servicios.html' %}">SERVICIOS</a>
                                                     </li>
                                                     <li>
-                                                        <a href="index.html">ACERCA DE NOSOTROS</a>
+                                                        <a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                     </li>
                                                     <li>
-                                                        <a href="index.html">CONTÁCTENOS</a>
+                                                        <a href="{% url '/contacto.html' %}">CONTÁCTENOS</a>
                                                     </li>
                                                 </ul><!-- .dl-menu end -->
                                             </div><!-- (Responsive menu) #dl-menu end -->
@@ -217,10 +218,10 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="about-us01.html">Inicio</a></li>
-                                    <li><a href="services01.html">Servicios</a></li>
-                                    <li><a href="blog-large-right.html">Sobre Nosotros</a></li>
-                                    <li><a href="portfolio03.html">Contacto</a></li>
+                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="#">Servicios</a></li>
+                                    <li><a href="#">Sobre Nosotros</a></li>
+                                    <li><a href="#">Contacto</a></li>
                                 </ul>
                                 <div style="height: 20px"></div>
                                 <div class="title">
@@ -228,8 +229,8 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="about-us01.html">Servicio 1</a></li>
-                                    <li><a href="services01.html">Servicio 2</a></li>
+                                    <li><a href="#">Servicio 1</a></li>
+                                    <li><a href="#">Servicio 2</a></li>
                                 </ul>
 
 
@@ -249,7 +250,7 @@
                             <ul>
                                 <li class="clearfix">
                                     <a href="blog-single.html">
-                                        <img src="{% static 'images/blog/recent-1.jpg' %}" alt=""/>
+                                        <img src="{% static 'images/itatpls/office1.jpg' %}" alt=""/>
                                     </a>
 
                                     <div class="comment-container">
@@ -267,7 +268,7 @@
 
                                <li class="clearfix" >
                                     <a href="blog-single.html">
-                                        <img src="{% static 'images/blog/recent-1.jpg' %}" alt="" />
+                                        <img src="{% static 'images/itatpls/office2.jpg' %}" alt="" />
                                     </a>
 
                                     <div class="comment-container">
@@ -329,10 +330,10 @@
                     <!-- .col-md-6 start -->
                     <div class="col-md-6">
                         <ul class="breadcrumb footer-breadcrumb">
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="about-us01.html">Servicios</a></li>
-                            <li><a href="services01.html">Acerca de Nosotros</a></li>
-                            <li><a href="portfolio03.html">Contáctenos</a></li>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Acerca de Nosotros</a></li>
+                            <li><a href="#">Contáctenos</a></li>
                             
                         </ul>
                     </div><!-- .col-md-6 end -->
