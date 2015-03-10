@@ -1,0 +1,712 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+  <div class="tp-banner-container mb-0">
+            <div id="rev-slider" class="tp-banner">
+                <ul>
+                    <!-- SLIDE ONE -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'images/slider/slide1-1.jpg' %}"   alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption tp-big-heading tp-big-heading-bold sfl"
+                             data-x="0"
+                             data-y="232"
+                             data-speed="500"
+                             data-start="1000"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            Beautiful and Modern <br /> Professional Corporate Theme
+                        </div>
+
+                        <div class="tp-caption sfb"
+                             data-x="488"
+                             data-y="110"
+                             data-speed="500"
+                             data-start="1300"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide1-2.png' %}" alt=""/>
+                        </div>
+
+                        <div class="tp-caption sfr"
+                             data-x="735"
+                             data-y="67"
+                             data-speed="500"
+                             data-start="1600"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide1-3.png' %}" alt=""/>
+                        </div>
+                    </li><!-- SLIDE ONE END -->
+
+                    <!-- SLIDE TWO -->
+                    <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 2">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'images/slider/slide2-1.jpg' %}" 
+                             alt="slidebg1"  
+                             data-bgposition="center center"
+                             data-bgrepeat="no-repeat" 
+                             data-kenburns="on" 
+                             data-duration="12000" 
+                             data-ease="Power0.easeInOut" 
+                             data-bgfit="115" 
+                             data-bgfitend="100"
+                             data-bgpositionend="center bottom">
+
+                        <div class="tp-caption tp-big-heading tp-big-heading-bold tp-black"
+                             data-x="488"
+                             data-y="160"
+                             data-speed="500"
+                             data-start="1000"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             >
+                            Clean, Modern, Powerful -  
+                        </div>
+
+                        <div class="tp-caption tp-simple-heading tp-black skewfromrightshort tp-resizeme"
+                             data-x="878"
+                             data-y="160"
+                             data-speed="500"
+                             data-start="1000"
+                             data-easing="Power3.easeInOut"
+                             data-splitin="chars"
+                             data-splitout="none"
+                             data-elementdelay="0.1"
+                             data-endelementdelay="0.1"
+                             data-endspeed="500"
+                             >
+                            Mixed 
+                        </div>
+
+                        <div class="tp-caption tp-text sft"
+                             data-x="488"
+                             data-y="232"
+                             data-speed="500"
+                             data-start="1800"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             >
+                            This is Mixed corporate layout with simple and clean 
+                            design ready for professional business <br /> websites.
+                            Let us introduce some core features of Mixed!   
+                        </div>
+
+                        <div class="tp-caption fadein"
+                             data-x="488"
+                             data-y="316"
+                             data-speed="500"
+                             data-start="2200"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             ><img src="{% static 'images/slider/slide2-2.png' %}" alt=""/>                            
+                        </div>
+
+                        <div class="tp-caption tp-text fadein"
+                             data-x="580"
+                             data-y="336"
+                             data-speed="500"
+                             data-start="2300"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             >
+                            Responsive  
+                        </div>
+
+                        <div class="tp-caption fadein"
+                             data-x="683"
+                             data-y="316"
+                             data-speed="500"
+                             data-start="2500"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             ><img src="{% static 'images/slider/slide2-3.png' %}" alt=""/>                            
+                        </div>
+
+                        <div class="tp-caption tp-text fadein"
+                             data-x="765"
+                             data-y="336"
+                             data-speed="500"
+                             data-start="2700"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             >
+                            Retina Ready  
+                        </div>
+
+                        <div class="tp-caption fadein"
+                             data-x="878"
+                             data-y="316"
+                             data-speed="500"
+                             data-start="2900"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             ><img src="{% static 'images/slider/slide2-4.png' %}" alt=""/>                            
+                        </div>
+
+                        <div class="tp-caption tp-text fadein"
+                             data-x="960"
+                             data-y="336"
+                             data-speed="500"
+                             data-start="3200"
+                             data-easing="Power3.easeInOut"
+                             data-endspeed="500"
+                             >
+                            Beautiful Design 
+                        </div>
+                    </li><!-- SLIDE TWO END -->
+
+                    <!-- SLIDE THREE -->
+                    <li data-transition="slideleft" data-slotamount="5" data-masterspeed="700" data-title="Slide 3">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'images/slider/slide3-1.jpg' %}"   alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption tp-big-heading-2 tp-big-heading-bold sft"
+                             data-x="0"
+                             data-y="204"
+                             data-speed="500"
+                             data-start="1000"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            we push our <br /> limits
+                        </div>
+
+                        <div class="tp-caption tp-small-heading-2 sft"
+                             data-x="0"
+                             data-y="330"
+                             data-speed="500"
+                             data-start="1300"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            To provide you best user experience
+                        </div>
+
+                        <div class="tp-caption sfb"
+                             data-x="503"
+                             data-y="115"
+                             data-speed="500"
+                             data-start="1600"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide3-2.png' %}" alt=""/>
+                        </div>
+
+                        <div class="tp-caption lft"
+                             data-x="737"
+                             data-y="78"
+                             data-speed="500"
+                             data-start="1800"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide3-3.png' %}" alt=""/>
+                        </div>
+
+                        <div class="tp-caption lft"
+                             data-x="964"
+                             data-y="46"
+                             data-speed="500"
+                             data-start="1900"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide3-4.png' %}" alt=""/>
+                        </div>
+
+                        <div class="tp-caption lft"
+                             data-x="750"
+                             data-y="242"
+                             data-speed="500"
+                             data-start="2000"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide3-5.png' %}" alt=""/>
+                        </div>
+
+                        <div class="tp-caption lft"
+                             data-x="1034"
+                             data-y="208"
+                             data-speed="500"
+                             data-start="2100"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide3-6.png' %}" alt=""/>
+                        </div>
+
+                        <div class="tp-caption lft"
+                             data-x="737"
+                             data-y="345"
+                             data-speed="500"
+                             data-start="2200"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide3-7.png' %}" alt=""/>
+                        </div>
+
+                        <div class="tp-caption lft"
+                             data-x="964"
+                             data-y="370"
+                             data-speed="500"
+                             data-start="2300"
+                             data-easing="Back.easeOut"
+                             data-endspeed="500"
+                             >
+                            <img src="{% static 'images/slider/slide3-8.png' %}" alt=""/>
+                        </div>
+                    </li><!-- SLIDE ONE END -->
+                </ul>
+            </div><!-- .tp-banner end -->
+        </div><!-- .tp-banner-container end -->
+
+        <div class='page-content'>
+                <div class="container-fluid" style="width: 80% !important">
+                <!-- .fancy-heading start -->
+                        <section class="fancy-heading left">
+                            <span class="heading-top">INVERSIONES TECNOLÓGICAS DE AMÉRICA</span>
+                            <h1>Diseñamos, integramos y desarrollamos soluciones de ingeniería para los requerimientos del siglo XXI.</h1>
+                        </section><!-- .fancy-heading end -->
+                    <div class="row row-equal-height">
+                       <div class="col-md-3 custom-background bkg-grey">
+                            <div class="service-box-2">
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+
+                                <h4>Diseño de Soluciones</h4>
+                                <p>
+                                    Conoceremos la verdadera necesidad de nuestro cliente para diseñar una solución a su medida. Elegiremos en la industria e integraremos al diseño de la solución aquella tecnología idónea que cumpla con las expectativas.
+                                </p>
+
+                           
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+
+                        <div class="col-md-3 custom-background bkg-grey">
+                            <div class="service-box-2">
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+
+                                <h4>Implementación de Soluciones</h4>
+                                <p>
+                                    Implementamos las soluciones diseñadas con el mejor nivel de calidad y cumplimiento de los tiempos establecidos.
+                                </p>
+
+                              
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+
+                        <div class="col-md-3 custom-background bkg-grey">
+                            <div class="service-box-2">
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+
+                                <h4>Atención Personalizada</h4>
+                                <p>
+                                    La satisfacción de nuestros clientes es la  mayor prioridad. Recibirán la mejor atención personalizada desde el primer momento hasta el último.
+                                </p>
+
+                                
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+
+                        <div class="col-md-3 custom-background bkg-grey">
+                            <div class="service-box-2">
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+
+                                <h4>Acompañamiento permanente</h4>
+                                <p>
+                                   La clave del éxito de la solución es el constante acompañamiento en la operación. Sentirán nuestro firme apoyo en todo este proceso. 
+                                </p>
+
+                                
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+                    </div><!-- .row end -->
+                </div><!-- .container end -->
+            </div><!-- .page-content end -->
+
+<div id="section-portfolio" class="page-content parallax parallax-9 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.4" style="background: url('{% static 'images/itatpls/parallax-4.jpg' %}') !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3>NUESTRA EMPRESA</h3>
+                            <h1>NOSOTROS</h1>
+                        </div><!-- .section-title end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content.parallax end -->
+
+ <div class="page-content custom-background bkg-grey">
+            <div class="container" style="width: 80% !important">
+                <div class="row">
+                    <div class="col-md-6">
+                          <!-- .fancy-heading start -->
+                        <section class="fancy-heading left">
+                            <h1><strong> EN INVERSIONES TECNOLÓGICAS DE AMÉRICA S.A. </strong>Conocemos sus necesidades.</h1>
+                        </section><!-- .fancy-heading end -->
+ 
+
+                        <div class="simple-heading left">
+                            <h2>NUESTRA <strong> LÍNEA DE NEGOCIOS</strong> </h2>
+                        </div><!-- .simple-heading-left end -->
+
+                        <p>
+                          Con más de 20 años de experiencia diseñando e implementando soluciones integrales en ingeniería de las TIC hemos aprendido a conocer las verdaderas necesidades y preocupaciones de nuestros clientes. Contamos con un talento humano muy capacitado que nos ha llevado a consolidarnos como empresa reconocida en el mercado. Nuestra profesionalidad en el cumplimiento y calidad de la solución son distintivos de nuestra compañía. 
+                        </p>
+
+                        <a class="btn btn-big empty black float-left" href=''>
+                            <span>Ver más</span>
+                        </a>
+                    </div><!-- .col-md-6 end -->
+
+                    <div class="col-md-6">
+                        
+                         <p>
+                           ITA es una empresa que debe tener una modernidad en su parte visual y comunicativa. Debe verse como una empresa seria para comunicarse de manera clara con su exterior, pero que de todas formas esté a la vanguardia tecnológica, que sea innovadora y exprese que tiene la capcidad para ofrecer las soluciones adecuadas en tecnología.
+                        </p>
+                         <div class="row">
+
+
+                    <!-- .col-md-3 start -->
+                    <div class="col-md-6">
+                        <div class="process-box-circle">
+                            <div class="icon-container">
+                                <i class="linecons-genius triggerAnimation animated" data-animate='zoomIn'></i>
+                            </div>
+
+                            <h4>SEGURIDAD Y GESTIÓN DE IDENTIFICACIÓN </h4>
+                            <p>
+                               Implementamos soluciones de reconocimiento facial para transporte masivos, aeropuertos, estadios. Sistemas de control de acceso de altos niveles de seguridad mediante reconocimiento de iris. Validación biométrica en línea contra la Registraduría Nacional, y demás soluciones en materia de seguridad ciudadana.
+                            </p>
+                        </div><!-- .service-box-2 end -->
+                    </div><!-- .col-md-3 end -->
+                    
+                    <!-- .col-md-3 start -->
+                    <div class="col-md-6">
+                        <div class="process-box-circle">
+                            <div class="icon-container">
+                                <i class="linecons-layers triggerAnimation animated" data-animate='zoomIn'></i>
+                            </div>
+
+                            <h4>SOFTWARES DE GESTIÓN TRIBUTARIA</h4>
+                            <p>
+                                Herramienta Tecnológicas que ayudan  a  la Modernización y Optimización de los Impuestos municipales y departamentales a través de un software especializado en el manejo de Impuestos, con tecnología de punta y recursos profesionales de sistematización y asesoría en asistencia tributaria integral enfocado al resultado, a través de la eficiencia y la modernización de los procesos en busca de la satisfacción de usuarios y/o clientes.
+                            </p>
+                        </div><!-- .service-box-2 end -->
+                    </div><!-- .col-md-3 end -->
+                    </div> <!-- row end -->
+
+
+
+
+
+
+                    </div><!-- .col-md-6 end -->
+                </div><!-- .row end -->  
+                </div><!-- .container-fluid end -->
+        </div><!-- .page-content end -->
+
+        <div id="section-portfolio" class="page-content parallax parallax-9 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.4" style="background: url('{% static 'images/itatpls/parallax-4.jpg' %}') !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3>NUESTROS PRODUCTOS</h3>
+                            <h1>SERVICIOS</h1>
+                        </div><!-- .section-title end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content.parallax end -->
+
+
+     <div class="page-content custom-background bkg-grey">
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                     <img src="{% static 'images/itatpls/parallax-1.jpg' %}" alt=""/>
+
+
+
+                </div><!-- col-md6 end style="margin-left: -60px !important" -->
+
+                 <div class="col-md-6" >
+                    <div class="simple-heading left">
+                            <h6>SAR: SOlUCIÓN TECNOLÓGICA HACENDARIA PARA LOS ENTES TERRITORIALES.</h6>
+                        </div><!-- .simple-heading-left end -->
+
+                         <div class="infobox-default" style="margin-bottom: 40px !important">
+                                    <div class="icon-container">
+                                        <i class="linecons-lightbulb"></i>
+                                    </div>
+
+                                    <div class="notification-container">
+                                        <p>
+                                            SAR Es una herramienta tecnológica que ayuda a la Modernización y Optimización de los impuestos municipales y departamentales a través de un software especializado en el manejo de Impuestos, con tecnología de punta y recursos profesionales de sistematización y asesoría en asistencia tributaria integral enfocado al resultado, a través de la eficiencia y la modernización de los procesos en busca de la satisfacción de usuarios y/o clientes.
+                                        </p>
+                                    </div><!-- .notification-container end -->
+                                </div><!-- .infobox-default end -->
+
+                       
+                            <h3>Algunas características y beneficios de utilizar nuestro sistema</h3>
+
+                            <!-- .row start -->
+                <div class="row" style="margin-top: 20px !important">
+                    <!-- .col-md-4 start -->
+                     <div class="col-md-6">
+                        <ul class="fa-ul large-icons minimal">
+                            <li>
+                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
+                                    <i class="fa fa-li fa-check"></i>
+                                </div>
+
+                                <div class="li-content">
+                                    <a href="#">
+                                        <h5>Mejorar el servicio al usuario </h5>
+                                    </a>
+
+                                    <p>
+                                       
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
+                                    <i class="fa fa-li fa-check"></i>
+                                </div>
+
+                                <div class="li-content">
+                                    <a href="#">
+                                        <h5>Aumentar la eficiencia operativa</h5>
+                                    </a>
+
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
+                                    <i class="fa fa-li fa-check"></i>
+                                </div>
+
+                                <div class="li-content">
+                                    <a href="#">
+                                        <h5>Cumplimento de normativas y transparencia</h5>
+                                    </a>
+
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </li><!-- li end -->
+                        </ul><!-- .fa-ul.large-icons end -->
+                    </div><!-- .col-md-6 end -->
+
+                    <!-- .col-md-6 start -->
+                    <div class="col-md-6">
+                        <ul class="fa-ul large-icons minimal">
+                            <li>
+                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
+                                    <i class="fa fa-li fa-check"></i>
+                                </div>
+
+                                <div class="li-content">
+                                    <a href="#">
+                                        <h5>Automatizar la gestión tributaria</h5>
+                                    </a>
+
+                                    <p>
+                                       
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
+                                    <i class="fa fa-li fa-check"></i>
+                                </div>
+
+                                <div class="li-content">
+                                    <a href="#">
+                                        <h5>Aprovechar el potencial de la tecnología</h5>
+                                    </a>
+
+                                    <p>
+                                       
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="icon-container animated triggerAnimation" data-animate="zoomIn">
+                                    <i class="fa fa-li fa-check"></i>
+                                </div>
+
+                                <div class="li-content">
+                                    <a href="#">
+                                        <h5>Aumentar la productividad de los empleados.</h5>
+                                    </a>
+
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </li><!-- li end -->
+                        </ul><!-- .fa-ul.large-icons end -->
+                    </div><!-- .col-md-6 end -->
+                </div>
+
+
+
+                </div><!-- col-md6 end -->
+
+                </div><!-- row end -->
+
+            <div class="row">
+        
+                 <div class="col-md-6">
+                    <div class="simple-heading left">
+                            <h6>SOLUCIONES EN SEGURIDAD Y GESTIÓN DE IDENTIFICACIÓN</h6>
+                        </div><!-- .simple-heading-left end -->
+
+                         <div class="infobox-default" style="margin-bottom: 40px !important">
+                                    <div class="icon-container">
+                                        <i class="linecons-lightbulb"></i>
+                                    </div>
+
+                                    <div class="notification-container">
+                                        <p>
+                                            Sistema automatizado de autenticación biométrica mediante acceso en línea, que permite verificar la identidad de un ciudadano a través de la comparación de los patrones de su huella dactilar con la información provista por un ente que provee información certificada y validada como es la Registraduría Nacional del Estado Civil.
+                                        </p>
+                                    </div><!-- .notification-container end -->
+                                </div><!-- .infobox-default end -->
+
+                       
+                            <h9></h9>
+
+                        <div class="simple-heading left">
+                            <h3>Algunas características y beneficios de utilizar nuestro sistema.</h3>
+                        </div>
+
+                        <div class="skills-bar">
+                            <ul class="skills">
+                                <li>
+                                    <span class="percentage-80 expand"></span>
+                                    <p><i class="fa fa-bullseye"></i> Web design 80%</p>
+                                </li>
+
+                                <li>
+                                    <span class="percentage-90 expand"></span>
+                                    <p><i class="fa fa-codepen"></i> WordPress Development 90%</p>
+                                </li>
+
+                                <li>
+                                    <span class="percentage-70 expand"></span>
+                                    <p><i class="fa fa-briefcase"></i> Graphic Design 70%</p>
+                                </li>
+
+                                <li>
+                                    <span class="percentage-80 expand"></span>
+                                    <p><i class="fa fa-building-o"></i> jQuery 80%</p>
+                                </li>
+                            </ul>
+                        </div><!-- .skills-bar.theme-color end -->  
+
+
+         
+
+                </div><!-- col-md6 end style="margin-tight: -60px !important" -->
+
+
+                        <div class="col-md-6" >
+                     <img src="{% static 'images/itatpls/parallax-1.jpg' %}" alt=""/>
+
+
+                </div><!-- col-md6 end -->
+            
+                   </div><!-- row end -->
+
+   </div><!-- .container end -->
+        </div><!-- .page-content end -->
+
+
+        <div class="page-content parallax dark parallax-4" style="background: #000000 !important" data-stellar-background-ratio="1.4" >
+            <!-- .container start -->
+            <div class="container" >
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- .fancy-heading start -->
+                        <section class="fancy-heading center">
+                            <span class="heading-top">Contáctenos</span>
+                            <h2>Envíenos un mensaje y comenzaremos a trabajar juntos</h2>
+                        </section><!-- .fancy-heading end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+                
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    
+                    <!-- .col-md-6 start -->
+                    <div class="col-md-6">
+                        <!-- form start -->
+                        <form class="wpcf7 simple centered">
+                            <fieldset>
+                                <span class="wpcf7-form-control-wrap your-name">
+                                    <input type="text" class="wpcf7-text" id="contact-name" placeholder="Su nombre">
+                                </span>
+                            </fieldset>
+
+                            <fieldset>
+                                <span class="wpcf7-form-control-wrap your-email">
+                                    <input type="email" name="email" class="wpcf7-text" id="contact-email" placeholder="Su email">
+                                </span>
+                            </fieldset>
+
+                            <fieldset>
+                                <span class="wpcf7-form-control-wrap your-url">
+                                    <input type="url" class="wpcf7-text" id="contact-website" placeholder="Su sitio web(opcional)">
+                                </span>
+                            </fieldset>
+                            
+                            <fieldset>
+                                <span class="wpcf7-form-control-wrap your-message">
+                                    <textarea rows="8" class="wpcf7-textarea" id="contact-message" placeholder="Su mensaje"></textarea>
+                                </span>
+                            </fieldset>
+
+                            <input type="submit" class="wpcf7-submit" value="Enviar" />
+                        </form><!-- .wpcf7 end -->
+                    </div><!-- .col-md-6 end -->
+                    
+                    <div class="col-md-3"></div>
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content end -->
+
+
+{% endblock content%}
+
+{% block scripts %}
+ <script type="text/javascript">
+    jQuery(document).ready(function($){
+    $("#navbar1, #navbar2, #navbar3, #navbar4").removeClass("current-menu-item");
+    $("#navbar1").addClass("current-menu-item");
+    });
+</script>
+{% endblock scripts %}

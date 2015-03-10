@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+   
+
+   <!-- #page-title.page-title-1 start -->
+        <div id="page-title" class="page-title-1 pt-bkg-image-3" style="background: url('{% static 'images/itatpls/parallax-6.jpg' %}') !important;">
+            <!-- .container start -->
+            <div class="container">
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- .title-container start -->
+                        <section class="title-container">
+                            <div class="title">
+                                <h3>Acerca de Nosotros</h3>
+                                <h1>
+                                    Quienes Somos
+                                </h1>
+                            </div>
+                        </section><!-- .title-container end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->                
+            </div><!-- .container end -->
+
+        </div><!-- #page-title.page-title-1 end -->
+
+        <!-- .page-content start -->
+        <div class="page-content">
+            <!-- .container start -->
+            <div class="container">
+                <!-- .row start -->
+                <div class="row">
+                    <!-- .col-md-6 start -->
+                    <div class="col-md-6">
+                        <img src="{% static 'images/itatpls/parallax-11.jpg' %}" alt=""/>
+                    </div><!-- .col-md-6 end -->
+
+                    <!-- .col-md-6 start -->
+                    <div class="col-md-6">
+                        <!-- .fancy-heading start -->
+                        <section class="fancy-heading left">
+                            <span class="heading-top">Nuestra Empresa</span>
+                            <h2>
+                            INVERSIONES TECNOLÓGICAS DE AMÉRICA S.A.</h2>
+                        </section><!-- .fancy-heading end -->
+
+                        <p>
+
+                        </p>
+
+                        <p>
+                            ITA es una empresa que debe tener una modernidad en su parte visual y comunicativa. Debe verse como una empresa seria para comunicarse de manera clara con su exterior, pero que de todas formas esté a la vanguardia tecnológica, que sea innovadora y exprese que tiene la capacidad para ofrecer las soluciones adecuadas en tecnología.
+                        </p>
+                    </div><!-- .col-md-6 end -->
+                </div><!-- .row end -->
+
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="simple-heading left">
+                            <h3>Misión y Visión</h3>
+                        </div>
+
+                        <ul class="tabs">
+                            <li class="active">
+                                <a href="#tab1">Misión</a>
+                            </li>
+                            <li class="">
+                                <a href="#tab2">Visión</a>
+                            </li>
+                           
+                        </ul><!-- .tabs end -->
+
+                        <!-- .tabs-content-wrap start -->
+                        <div class="tab-content-wrap">
+                            <!-- #tab1 content start -->
+                            <div id="tab1" class="tab-content">
+                                <p>
+                                    <img src="{% static 'images/tab.png' %}" class="float-left" alt="image"/>
+                                    ITA es una empresa tecnológica con un equipo altamente calificado que ofrece soluciones innovadora, adaptables a las necesidades de nuestros clientes en Latinoamérica, para impulsar su desarrollo y crecimiento.
+                                </p>
+                            </div><!-- #tab1 content end -->
+
+                            <!-- #tab1 content start -->
+                            <div id="tab2" class="tab-content">
+                                <p>
+                                    <img src="{% static 'images/tab.png' %}" class="float-right" alt="image"/>
+                                     Ser una empresa altamente reconocida en Latinoamérica por la calidad y buenos resultados de sus soluciones. 
+                                </p>
+                            </div><!-- #tab2 content end -->
+
+                            
+                        </div><!-- .tab-content-wrap end -->
+                    </div><!-- .col-md-6 end -->
+
+                    <div class="col-md-6 clearfix">
+                        <div class="simple-heading left">
+                            <h3>NUESTROS SERVICIOS</h3>
+                        </div>
+
+                        <div class="skills-bar">
+                            <ul class="skills">
+                                <li>
+                                    <span class="percentage-80 expand"></span>
+                                    <p><i class="fa fa-bullseye"></i>Consultoría</p>
+                                </li>
+
+                                <li>
+                                    <span class="percentage-90 expand"></span>
+                                    <p><i class="fa fa-codepen"></i> Diseño de soluciones</p>
+                                </li>
+
+                                <li>
+                                    <span class="percentage-70 expand"></span>
+                                    <p><i class="fa fa-briefcase"></i> Desarrollos Tecnológicos</p>
+                                </li>
+
+                                <li>
+                                    <span class="percentage-80 expand"></span>
+                                    <p><i class="fa fa-building-o"></i>Implementación de soluciones</p>
+                                </li>
+                                 <li>
+                                    <span class="percentage-90 expand"></span>
+                                    <p><i class="fa fa-building-o"></i>Desarrollo de Tecnologías de Comunicaciones e información</p>
+                                </li>
+                                 <li>
+                                    <span class="percentage-80 expand"></span>
+                                    <p><i class="fa fa-building-o"></i>Integración e implementación</p>
+                                </li>
+                            </ul>
+                        </div><!-- .skills-bar.theme-color end -->
+                    </div><!-- .col-md-6 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content end -->
+
+
+
+
+
+{% endblock content %}
+{% block scripts %}
+ <script type="text/javascript">
+    jQuery(document).ready(function($){
+    $("#navbar1, #navbar2, #navbar3, #navbar4").removeClass("current-menu-item");
+    $("#navbar3").addClass("current-menu-item");
+    });
+</script>
+{% endblock scripts %}
+
