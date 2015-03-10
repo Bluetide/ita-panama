@@ -1100,7 +1100,7 @@ max-width: 90%;
   font-weight: 400;
 }
 .page-title-1 .breadcrumbs-container {
-  background-color: #31393f;
+  background-color: #7A7E89;
   width: 100%;
   padding: 20px 0;
 }
@@ -1463,7 +1463,7 @@ max-width: 90%;
   color: #fff;
 }
 .pt-bkg-image-1 {
-  background-image: url('../images/page-titles/page-title-1.jpg');
+  background-image: url('../images/page-titles/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
