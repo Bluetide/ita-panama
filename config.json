@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 {"port":8966}
+=======
+{
+    "aws-access-key": "AKIAILMRFWKMPTUWCZLQ",
+    "aws-bucket-name": "itapty",
+    "aws-bucket-website": "itapty.s3-website-us-east-1.amazonaws.com"
+}
+>>>>>>> 5bf9122af0d979195d8d01a533e0edebe3f59120
