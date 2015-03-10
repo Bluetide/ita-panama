@@ -82,7 +82,7 @@ strong a,
 .rpw_posts_widget.style-2 .body a:hover h3,
 .rpw_posts_widget.style-2 .body .comment-number:hover,
 .header-info-widgets li .icon-container{
-    color: #117dc2;
+    color: #006B87;
 }
 
 /* LIGHTER COLOR */
@@ -151,7 +151,7 @@ strong a,
 .rpw_posts_widget.style-2 .month,
 .header-type-2 .navbar-nav>li>a:hover,
 #header.header-type-2 .navbar-default .navbar-nav > .current-menu-item > a{
-    background-color: #117dc2;
+    background-color:#006B87;
 }
 
 .newsletter .submit:hover, 
@@ -162,7 +162,7 @@ strong a,
 
 .section-title-container .section-title,
 .section-title-container .section-title::before{
-    background-color: rgba(17, 125, 194, 0.7);
+   background-color: rgba(0, 107, 135, 0.70);
 }
 
 .service-box-12:hover .icon-container i{
@@ -176,7 +176,7 @@ strong a,
 .process-box-container .process-box.box-2,
 .skills li:nth-child(2n) .expand,
 .list-icons-merged li:nth-child(2n) .icon{
-    background-color: #1491e1;
+    background-color: #009DA2;
 }
 
 .counter.theme-color .county-minutes-wrapper,
@@ -185,7 +185,7 @@ strong a,
 .page-content.custom-background .counter.theme-color .county-minutes-wrapper,
 .process-box-container .process-box.box-3,
 .skills li:nth-child(3n) .expand{
-    background-color: #2ba1ec;
+    background-color: #7A7E89;
 }
 
 .counter.theme-color .county-seconds-wrapper,
