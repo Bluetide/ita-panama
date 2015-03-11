@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block title %}
     <title>ITA - Inversiones Tecnológicas de América</title>
+    {% endblock %}
+    {% block description %}
+    <meta name="description" content="Diseñamos, integramos e implementamos software y soluciones de ingeniería para los requerimientos del siglo XXI." />
+    {% endblock %}
 
     <!-- Bootstrap -->
     <link rel="icon" type="image/png" href="{% static 'images/favicon.ico' %}" />
@@ -109,12 +114,12 @@
                                                 <li id="navbar1" class="dropdown pi-mega-fw current-menu-item">
                                                     <a href="{% url '/index.html' %}" >INICIO</a>
                                                 </li><!-- MENU ITEM .dropdown end -->
-
-                                             <li id="navbar2" class="dropdown pi-mega-fw current-menu-item">
-                                                    <a href="#" >SERVICIOS (PROXIMAMENTE)</a>
+												<li id="navbar3" class="dropdown"><a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                 </li>
-                                                <li id="navbar3" class="dropdown"><a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
+                                                <li id="navbar2" class="dropdown pi-mega-fw current-menu-item">
+                                                    <a href="#" >SERVICIOS (PRÓXIMAMENTE)</a>
                                                 </li>
+                                                
                                                 <li id="navbar4" class="dropdown pi-mega-fw"><a href="{% url '/contacto.html' %}" >CONTÁCTENOS</a>
                                                     
                                                 </li><!-- MENU ITEM .dropdown.pi-mega-fw end -->
@@ -132,7 +137,7 @@
                                                         <a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">SERVICIOS</a>
+                                                        <a href="#">SERVICIOS (PRÓXIMAMENTE)</a>
                                                     </li>
                                                     <li>
                                                         <a href="{% url '/contacto.html' %}">CONTÁCTENOS</a>
@@ -213,7 +218,7 @@
 
                                 <ul>
                                     <li><a href="{% url '/index.html' %}">Inicio</a></li>
-                                    <li><a href="#">Servicios (Proximamente)</a></li>
+                                    <li><a href="#">Servicios (Próximamente)</a></li>
                                     <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
                                     <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                                     
@@ -224,8 +229,8 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="#">Servicio 1</a></li>
-                                    <li><a href="#">Servicio 2</a></li>
+                                    <li><a href="#">Software de Gestión Tributaria (Próximamente)</a></li>
+                                    <li><a href="#">Seguridad y gestión de identificación (Próximamente)</a></li>
                                 </ul>
 
 
@@ -283,7 +288,7 @@
                             <!-- .widget.contact-info start -->
                              <li class="widget pixely_widget_contact clearfix">
                                 <h3>Contáctenos y le responderemos a todas sus dudas e inquietudes</h3>
-                                <strong>info@ita-sa.com</strong>
+                                <a href="mailto:info@ita-sa.com"><strong class="light">info@ita-sa.com</strong></a>
                                 <p>
                                     Panamá: +507 201 55 71<br />
                                     Colombia: +507 201 55 71
@@ -322,8 +327,9 @@
                     <div class="col-md-6">
                         <ul class="breadcrumb footer-breadcrumb">
                             <li><a href="{% url '/index.html' %}">Inicio</a></li>
-                            <li><a href="#">Servicios (Proximamente)</a></li>
                             <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
+                            <li><a href="#">Servicios (Próximamente)</a></li>
+                            
                             <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                             
                         </ul>
