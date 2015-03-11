@@ -3014,9 +3014,9 @@ span.dropcap.theme-bkg {
     5.15. GALLERIES
     ========================================================================= */
 .gallery-padding .gallery-item {
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+padding-bottom: 8px;
 }
 .gallery-three-col .gallery-item {
   width: 33.33333333%;
@@ -3033,8 +3033,10 @@ span.dropcap.theme-bkg {
   width: 100%;
 }
 .gallery-img {
-  position: relative;
-  overflow: hidden;
+position: relative;
+overflow: hidden;
+border: 5px solid #DFDFDF;
+border-radius: 3px;
 }
 .gallery-img img {
   width: 100%;
@@ -7432,6 +7434,13 @@ ul.aside_widgets {
 .mt-30{
 margin-top:30px;
 }
+.mt-80{
+margin-top:80px;
+}
+
+.mb-30{
+margin-bottom:30px;
+}
 .nopaddingleft{
 padding-left:0;
 }
@@ -7444,4 +7453,21 @@ color:#fafafa;
 .paddingtb40{
 padding: 60px 0px;
 margin-bottom: 3px;
+}
+.gallery-two-col .gallery-item {
+width: 49%;
+}
+.icon_pty {
+background-image: url('../images/pty.png');
+background-position: left center;
+background-repeat: no-repeat;
+padding-left: 27px!important;
+background-size: 21px;
+}
+.icon_col {
+background-image: url('../images/col.png');
+background-position: left center;
+background-repeat: no-repeat;
+padding-left: 27px!important;
+background-size: 21px;
 }
