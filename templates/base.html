@@ -63,7 +63,7 @@
 
                             <li>
                                 <i class="fa fa-envelope-o"></i>
-                                <a href="contact.html">info@ita-sa.com</a>
+                                <a href="mailto:info@ita-sa.com">info@ita-sa.com</a>
                             </li>
 
                         </ul><!-- #quick-links end -->
@@ -99,7 +99,7 @@
                                         <div class="navbar-header">
                                             <!-- .logo start -->
                                             <div class="logo">
-                                                <a href="index.html"><img src="{% static 'images/logo.png' %}" alt="Mixed Professional Multipurpose Business HTML Template"></a>
+                                                <a href="{% url '/index.html' %}"><img src="{% static 'images/logo.png' %}" alt="Mixed Professional Multipurpose Business HTML Template"></a>
                                             </div><!-- logo end -->
                                         </div><!-- .navbar-header end -->
 
@@ -132,7 +132,7 @@
                                                         <a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                     </li>
                                                     <li>
-                                                        <a href="{% url '/servicios.html' %}">SERVICIOS</a>
+                                                        <a href="#">SERVICIOS</a>
                                                     </li>
                                                     <li>
                                                         <a href="{% url '/contacto.html' %}">CONTÁCTENOS</a>
@@ -181,7 +181,7 @@
                         <ul class="col-md-3 footer-widget-container">
                             <!-- .widget.widget_text -->
                             <li class="widget widget_newsletterwidget">
-                            <a href="index.html"><img src="{% static 'images/logo_bw.png' %}" alt="Mixed Professional Multipurpose Business HTML Template"></a>  
+                            <a href="{% url '/index.html' %}"><img src="{% static 'images/logo_bw.png' %}" alt="Inversiones Tecnológicas de América S.A."></a>  
                                 <p style="padding-top: 20px !important">
                                    <strong>INVERSIONES TECNOLÓGICAS DE AMÉRICA S.A.</strong> diseña, integra e implementa soluciones de ingeniería para los requerimientos del siglo XXI.
                                 </p>
@@ -215,7 +215,7 @@
                                     <li><a href="{% url '/index.html' %}">Inicio</a></li>
                                     <li><a href="#">Servicios (Proximamente)</a></li>
                                     <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
-                                    <li><a href="{% url '/contact.html' %}">Contáctenos</a></li>
+                                    <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                                     
                                 </ul>
                                 <div style="height: 20px"></div>
@@ -246,9 +246,9 @@
                                 <li class="clearfix">
 
                                     <div class="comment-container">
-                                        <a href="blog-single.html" class="comment-number">
+                                        <span class="comment-number">
                                             <span class="date">Pamamá, Pamamá</span>
-                                            </a>
+                                            </span>
 
                                              <p >Torre de las Américas, Oficina 903, Torre A</br>
                                              Tel. +507 201 55 71<p>
@@ -262,9 +262,9 @@
                                <li class="clearfix" >
 
                                     <div class="comment-container">
-                                        <a href="blog-single.html" class="comment-number">
+                                        <span class="comment-number">
                                             <span class="date">Bogotá, Colombia</span>
-                                            </a>
+                                            </span>
                                               <p>Calle 93 #12-11, Oficina 502</br>
                                               Tel. +000 123 45 67<p>
                                     </div>
@@ -291,7 +291,7 @@
                                 
                                
                                 
-                                <a class="btn btn-medium" href="contact.html">
+                                <a class="btn btn-medium" href="contacto.html">
                                     <span>CONTÁCTENOS</span>
                                 </a>
                             </li><!-- .pi_widget_contact end -->
@@ -324,7 +324,7 @@
                             <li><a href="{% url '/index.html' %}">Inicio</a></li>
                             <li><a href="#">Servicios (Proximamente)</a></li>
                             <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
-                            <li><a href="{% url '/contact.html' %}">Contáctenos</a></li>
+                            <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                             
                         </ul>
                     </div><!-- .col-md-6 end -->
