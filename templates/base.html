@@ -15,7 +15,7 @@
     <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
     <link href="{% static 'css/animate.css' %}" rel="stylesheet">
     <link href="{% static 'css/linecons/linecons.css' %}" rel="stylesheet">
-
+    <link href="{% static 'css/owl-carousel/owl.carousel.css' %}" rel="stylesheet">
    
       <!-- Revolution Slider -->
     <link href="{% static 'css/rs-plugin/css/settings.css' %}" rel="stylesheet">
@@ -54,7 +54,11 @@
                         <ul id="quick-links">
                             <li>
                                 <i class="fa fa-phone"></i>
-                                <span>+507 201 55 71</span>
+                                <span>Panamá: +507 201 55 71</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>Colombia: +000 123 45 67</span>
                             </li>
 
                             <li>
@@ -62,10 +66,6 @@
                                 <a href="contact.html">info@ita-sa.com</a>
                             </li>
 
-                            <li>
-                                <i class="fa fa-user"></i>
-                                <a href="#">Webmail Login</a>
-                            </li>
                         </ul><!-- #quick-links end -->
 
                         <!-- #social-links start -->
@@ -111,7 +111,7 @@
                                                 </li><!-- MENU ITEM .dropdown end -->
 
                                              <li id="navbar2" class="dropdown pi-mega-fw current-menu-item">
-                                                    <a href="{% url '/servicios.html' %}" >SERVICIOS</a>
+                                                    <a href="#" >SERVICIOS (PROXIMAMENTE)</a>
                                                 </li>
                                                 <li id="navbar3" class="dropdown"><a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                 </li>
@@ -129,10 +129,10 @@
                                                         <a href="{% url '/index.html' %}">INICIO</a>
                                                     </li>
                                                     <li>
-                                                        <a href="{% url '/servicios.html' %}">SERVICIOS</a>
+                                                        <a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                     </li>
                                                     <li>
-                                                        <a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
+                                                        <a href="{% url '/servicios.html' %}">SERVICIOS</a>
                                                     </li>
                                                     <li>
                                                         <a href="{% url '/contacto.html' %}">CONTÁCTENOS</a>
@@ -212,10 +212,11 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="#">Inicio</a></li>
-                                    <li><a href="#">Servicios</a></li>
-                                    <li><a href="#">Sobre Nosotros</a></li>
-                                    <li><a href="#">Contacto</a></li>
+                                    <li><a href="{% url '/index.html' %}">Inicio</a></li>
+                                    <li><a href="#">Servicios (Proximamente)</a></li>
+                                    <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
+                                    <li><a href="{% url '/contact.html' %}">Contáctenos</a></li>
+                                    
                                 </ul>
                                 <div style="height: 20px"></div>
                                 <div class="title">
@@ -243,16 +244,14 @@
                                  <div class="rpw_posts_widget">
                             <ul>
                                 <li class="clearfix">
-                                    <a href="blog-single.html">
-                                        <img src="{% static 'images/itatpls/office1.jpg' %}" alt=""/>
-                                    </a>
 
                                     <div class="comment-container">
                                         <a href="blog-single.html" class="comment-number">
                                             <span class="date">Pamamá, Pamamá</span>
                                             </a>
 
-                                             <p >Torre de las Américas, Oficina 903, Torre A<p>
+                                             <p >Torre de las Américas, Oficina 903, Torre A</br>
+                                             Tel. +507 201 55 71<p>
                                     </div>
 
                                    
@@ -261,15 +260,13 @@
                                 </li>
 
                                <li class="clearfix" >
-                                    <a href="blog-single.html">
-                                        <img src="{% static 'images/itatpls/office2.jpg' %}" alt="" />
-                                    </a>
 
                                     <div class="comment-container">
                                         <a href="blog-single.html" class="comment-number">
                                             <span class="date">Bogotá, Colombia</span>
                                             </a>
-                                              <p>Calle 93 #12-11, Oficina 502<p>
+                                              <p>Calle 93 #12-11, Oficina 502</br>
+                                              Tel. +000 123 45 67<p>
                                     </div>
 
                                    
@@ -324,10 +321,10 @@
                     <!-- .col-md-6 start -->
                     <div class="col-md-6">
                         <ul class="breadcrumb footer-breadcrumb">
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Servicios</a></li>
-                            <li><a href="#">Acerca de Nosotros</a></li>
-                            <li><a href="#">Contáctenos</a></li>
+                            <li><a href="{% url '/index.html' %}">Inicio</a></li>
+                            <li><a href="#">Servicios (Proximamente)</a></li>
+                            <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
+                            <li><a href="{% url '/contact.html' %}">Contáctenos</a></li>
                             
                         </ul>
                     </div><!-- .col-md-6 end -->
