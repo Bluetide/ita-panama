@@ -116,9 +116,15 @@
                                                 </li><!-- MENU ITEM .dropdown end -->
 												<li id="navbar3" class="dropdown"><a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                 </li>
-                                                <li id="navbar2" class="dropdown pi-mega-fw current-menu-item">
-                                                    <a href="#" >SERVICIOS (PRÓXIMAMENTE)</a>
-                                                </li>
+                                                <li class="dropdown ">
+                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios</a>
+                                                         
+                                                            <ul class="dropdown-menu pi-mm-list">
+                                                                <li><a href="{% url '/servicios.html' %}">SAR</a></li>
+                                                                <li><a href="{% url '/servicios2.html' %}">Seguridad y Gestión de Identificación</a></li>
+                                                            </ul>
+
+                                                        </li>
                                                 
                                                 <li id="navbar4" class="dropdown pi-mega-fw"><a href="{% url '/contacto.html' %}" >CONTÁCTENOS</a>
                                                     
