@@ -7474,3 +7474,81 @@ background-size: 21px;
 .tm--30{
 margin-top:-30px;
 }
+
+.fa-ul.medium-icons {
+  margin-left: 0;
+}
+.fa-ul.medium-icons li {
+  width: 100%;
+}
+.fa-ul.medium-icons li:last-child {
+  margin-bottom: 0;
+}
+.fa-ul.medium-icons .icon-container {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-color: #31393f;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  overflow: hidden;
+}
+.fa-ul.medium-icons .icon-container i {
+  position: relative;
+  display: table-cell;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  left: 0;
+  top: 0;
+  font-size: 15px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  padding-top: 0;
+}
+.fa-ul.medium-icons .li-content {
+  padding-left: 40px;
+}
+.fa-ul.medium-icons .li-content h6 {
+line-height: 30px;
+}
+.fa-ul.medium-icons .li-content h1,
+.fa-ul.medium-icons .li-content h2,
+.fa-ul.medium-icons .li-content h3,
+.fa-ul.medium-icons .li-content h4,
+.fa-ul.medium-icons .li-content h5,
+.fa-ul.medium-icons .li-content h6 {
+  margin-bottom: 10px;
+  -webkit-transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  -ms-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+.fa-ul.medium-icons.minimal .icon-container {
+  border: 1px solid #ddd;
+  color: #252525;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f6fcfe 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f6fcfe));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f6fcfe 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #f6fcfe 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #f6fcfe 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #f6fcfe 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6fcfe', GradientType=0);
+  /* IE6-9 */
+}
+.medium-icons p {
+  padding-bottom: 0;
+}
