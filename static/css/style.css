@@ -5227,6 +5227,9 @@ th {
 .custom-background.bkg-grey .testimonial .author strong {
   color: #777 !important;
 }
+.bkg-dark{
+    background-color: #DADADA;
+}
 .testimonial {
   width: 100%;
 }
