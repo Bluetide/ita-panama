@@ -7564,4 +7564,9 @@ border: 1px solid #FF6B6B!important;
 background-color: rgba(255, 98, 98, 0.39)!important;
 color: #fff!important;
 }
+a.read-more.left {
+text-align: left;
+display: inline;
+font-weight: 500;
+}
 
