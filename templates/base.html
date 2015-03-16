@@ -10,6 +10,7 @@
     {% block description %}
     <meta name="description" content="Diseñamos, integramos e implementamos software y soluciones de ingeniería para los requerimientos del siglo XXI." />
     {% endblock %}
+    <meta name="author" content="BlueTide IT Consulting">
 
     <!-- Bootstrap -->
     <link rel="icon" type="image/png" href="{% static 'images/favicon.ico' %}" />
@@ -114,7 +115,7 @@
                                                 <li id="navbar1" class="dropdown pi-mega-fw current-menu-item">
                                                     <a href="{% url '/index.html' %}" >INICIO</a>
                                                 </li><!-- MENU ITEM .dropdown end -->
-												<li id="navbar3" class="dropdown"><a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
+												<li id="navbar3" class="dropdown"><a href="{% url '/nosotros.html' %}">ACERCA DE NOSOTROS</a>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios </a>
@@ -139,7 +140,7 @@
                                                         <a href="{% url '/index.html' %}">INICIO</a>
                                                     </li>
                                                     <li>
-                                                        <a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
+                                                        <a href="{% url '/nosotros.html' %}">ACERCA DE NOSOTROS</a>
                                                     </li>
                                                     <li>
                                                         <a href="#">SERVICIOS (PRÓXIMAMENTE)</a>
@@ -226,7 +227,7 @@
                                 <ul>
                                     <li><a href="{% url '/index.html' %}">Inicio</a></li>
                                     
-                                    <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
+                                    <li><a href="{% url '/nosotros.html' %}">Acerca de Nosotros</a></li>
                                     <li><a href="{% url '/servicios/sar.html' %}">Servicios (Próximamente)</a></li>
                                     <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                                     
@@ -304,7 +305,7 @@
                                 
                                
                                 
-                                <a class="btn btn-medium" href="contacto.html">
+                                <a class="btn btn-medium" href="{% url '/contacto.html' %}">
                                     <span>CONTÁCTENOS</span>
                                 </a>
                             </li><!-- .pi_widget_contact end -->
@@ -336,7 +337,7 @@
                         <ul class="breadcrumb footer-breadcrumb">
                             <li><a href="{% url '/index.html' %}">Inicio</a></li>
 
-                            <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
+                            <li><a href="{% url '/nosotros.html' %}">Acerca de Nosotros</a></li>
                             
                             <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                             

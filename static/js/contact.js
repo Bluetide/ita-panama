@@ -28,7 +28,7 @@ if (name == ''){
             "from_name": name,
             'to': [
               {
-                'email': 'gregesf@bluetideconsulting.com', //Destinatario del correo
+                'email': 'info@ita-sa.com', //Destinatario del correo
                 'name': 'Contacto ITA Website', //Nombre del Remitente
                 'type': 'to'
               }
