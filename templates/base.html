@@ -154,9 +154,9 @@
 
                                             <!-- #search-box start -->
                                             <div id="search">
-                                                <form action="#" method="get">
+                                                <form action="{% url '/search.html' %}" method="get">
                                                     <input class="search-submit" type="submit" />
-                                                    <input id="m_search" name="s" type="text" placeholder="Palabras clave..." />                        
+                                                    <input onkeydown="if (event.keyCode == 13) { this.form.submit(); return false; }" id="m_search" name="q" type="text" placeholder="Palabras clave..." />                        
                                                 </form>
                                             </div><!-- #search-box end -->
                                         </div><!-- .navbar.navbar-collapse end --> 
@@ -228,7 +228,6 @@
                                     <li><a href="{% url '/index.html' %}">Inicio</a></li>
                                     
                                     <li><a href="{% url '/nosotros.html' %}">Acerca de Nosotros</a></li>
-                                    <li><a href="{% url '/servicios/sar.html' %}">Servicios (Próximamente)</a></li>
                                     <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                                     
                                 </ul>

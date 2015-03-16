@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% block title %}<title>Búsqueda | Inversiones Tecnológicas de América</title> {% endblock %}
+{% block description %}<meta name="description" content="Diseñamos, integramos e implementamos software y soluciones de ingeniería para los requerimientos del siglo XXI." />{% endblock %}
+{% block content %}
+
+   <!-- #page-title.page-title-1 start -->
+        <div id="page-title" class="page-title-1 pt-bkg-image-1">
+            <!-- .container start -->
+            <div class="container">
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- .title-container start -->
+                        <section class="title-container">
+                            <div class="title">
+                                <h3>BÚSQUEDA</h3>
+                                <h1>
+                                    Resultados a su consulta
+                                </h1>
+                            </div>
+                        </section><!-- .title-container end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->                
+            </div><!-- .container end -->
+            <div class="breadcrumbs-container">
+                <!-- .CONTAINER START -->
+                <div class="container">
+                    <!-- .row start -->
+                    <div class="row">
+                        <!-- .col-md-12 start -->
+                        <div class="col-md-12">
+                            <ul class="breadcrumb">
+                                <li>Usted está aquí:</li>
+                                <li><a href="{% url '/index.html' %}">Inicio</a></li>
+                                <li><span class="active">Búsqueda</span></li>
+                            </ul><!-- .breadcrumb end -->
+                        </div><!-- .col-md-12 end -->
+                    </div><!-- .row end -->
+                </div><!-- .container end -->
+            </div>
+            </div>
+          
+
+        <!-- .page-content start -->
+        <div class="page-content">
+            <!-- .container start -->
+            <div class="container">
+                <!-- .row start -->
+                <div class="row">
+                    
+                    <script>
+                      (function() {
+                        var cx = '014013771411759718659:ebgqv3cppii';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                            '//www.google.com/cse/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                      })();
+                    </script>
+                    <gcse:search></gcse:search>
+
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content end -->
+
+
+        <div class="page-content parallax dark parallax-colored">
+            <!-- .container start -->
+            <div class="container">
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- .call-to-action start -->
+                        <div class="call-to-action clearfix">
+                            <div class="text">
+                                <h2>¿Está usted interesado en trabajar con nosotros?</h2>
+                                <p>
+                                    Agendaremos una cita para atenderle de forma personalizada y ofrecerle nuestras soluciones a su problema.
+                                </p>
+                            </div>
+
+                            <a href='{% url '/contacto.html' %}' class='btn btn-medium white empty'>
+                                <span>CONTÁCTENOS</span>
+                            </a>
+                        </div><!-- .call-to-action end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content end -->
+
+
+
+
+      
+        
+{% endblock content %}
