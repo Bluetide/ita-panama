@@ -749,32 +749,33 @@
                     <!-- .col-md-6 start -->
                     <div class="col-md-6">
                         <!-- form start -->
-                        <form class="wpcf7 simple centered">
+                        <form class="wpcf7 simple centered" id="contactform">
                             <fieldset>
                                 <span class="wpcf7-form-control-wrap your-name">
-                                    <input type="text" class="wpcf7-text" id="contact-name" placeholder="Su nombre">
+                                    <input type="text" class="wpcf7-text" id="contactform-name" placeholder="Su nombre">
                                 </span>
                             </fieldset>
 
                             <fieldset>
                                 <span class="wpcf7-form-control-wrap your-email">
-                                    <input type="email" name="email" class="wpcf7-text" id="contact-email" placeholder="Su email">
+                                    <input type="email" name="email" class="wpcf7-text" id="contactform-email" placeholder="Su email">
                                 </span>
                             </fieldset>
 
                             <fieldset>
                                 <span class="wpcf7-form-control-wrap your-url">
-                                    <input type="url" class="wpcf7-text" id="contact-website" placeholder="Su sitio web(opcional)">
+                                    <input type="url" class="wpcf7-text" id="contactform-web" placeholder="Su sitio web(opcional)">
                                 </span>
                             </fieldset>
                             
                             <fieldset>
                                 <span class="wpcf7-form-control-wrap your-message">
-                                    <textarea rows="8" class="wpcf7-textarea" id="contact-message" placeholder="Su mensaje"></textarea>
+                                    <textarea rows="8" class="wpcf7-textarea" id="contactform-message" placeholder="Su mensaje"></textarea>
                                 </span>
                             </fieldset>
 
-                            <input type="submit" class="wpcf7-submit" value="Enviar" />
+                            <input type="button" class="wpcf7-submit center" id="form-submit" onclick="sendMail()" value="Enviar" />
+                            <div id="form-result" style="display:none;"> <i class="fa fa-check-square"></i>  Mensaje enviado correctamente</div>
                         </form><!-- .wpcf7 end -->
                     </div><!-- .col-md-6 end -->
                     

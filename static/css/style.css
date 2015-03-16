@@ -1464,12 +1464,12 @@ max-width: 85%;
   color: #fff;
 }
 .pt-bkg-image-1 {
-  background-image: url('../images/page-titles/bg.jpg');
+  background-image: url('../images/pics/parallax4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .pt-bkg-image-2 {
-  background-image: url('../images/page-titles/page-title-2.jpg');
+  background-image: url('../images/pics/parallax3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2352,6 +2352,7 @@ blockquote.custom-background::before {
   font-size: 12px;
   float: right;
   border: none;
+  text-align:center;
 }
 .wpcf7 .wpcf7-select {
   width: 100%;
@@ -2451,6 +2452,7 @@ blockquote.custom-background::before {
 .wpcf7.simple.centered .wpcf7-submit {
   float: none;
   width: 100%;
+  text-align: center;
 }
 .page-content.dark .wpcf7.simple.centered .wpcf7-text,
 .page-content.dark .wpcf7.simple.centered .wpcf7-textarea {
@@ -7557,3 +7559,9 @@ line-height: 30px;
 .medium-icons p {
   padding-bottom: 0;
 }
+.required {
+border: 1px solid #FF6B6B!important;
+background-color: rgba(255, 98, 98, 0.39)!important;
+color: #fff!important;
+}
+
