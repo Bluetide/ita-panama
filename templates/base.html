@@ -117,11 +117,11 @@
 												<li id="navbar3" class="dropdown"><a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios (Próximamente)</a>
-                                                    <!--<ul class="dropdown-menu">
+                                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios </a>
+                                                    <ul class="dropdown-menu">
                                                         <li><a href="{% url '/servicios/sar.html' %}">SAR - Software de Gestión de Rentas</a></li>
                                                         <li><a href="{% url '/servicios/biometrica.html' %}">Seguridad y Gestión de Identificación</a></li>
-                                                    </ul>-->
+                                                    </ul>
                                                 </li>
                                                 
                                                 <li id="navbar4" class="dropdown pi-mega-fw"><a href="{% url '/contacto.html' %}" >CONTÁCTENOS</a>
@@ -142,7 +142,8 @@
                                                         <a href="{% url '/about.html' %}">ACERCA DE NOSOTROS</a>
                                                     </li>
                                                     <li>
-                                                        <a href="javascript:void(0);">SERVICIOS (PRÓXIMAMENTE)</a>
+                                                        <a href="#">SERVICIOS (PRÓXIMAMENTE)</a>
+                                                        
                                                     </li>
                                                     <li>
                                                         <a href="{% url '/contacto.html' %}">CONTÁCTENOS</a>
@@ -236,8 +237,8 @@
                                 </div>
 
                                 <ul>
-                                    <li><a href="#">Software de Gestión Tributaria (Próximamente)</a></li>
-                                    <li><a href="#">Seguridad y gestión de identificación (Próximamente)</a></li>
+                                    <li><a href="{% url '/servicios/sar.html' %}">Software de Gestión Tributaria</a></li>
+                                    <li><a href="{% url '/servicios/biometrica.html' %}">Seguridad y gestión de identificación</a></li>
                                 </ul>
 
 
@@ -336,7 +337,6 @@
                             <li><a href="{% url '/index.html' %}">Inicio</a></li>
 
                             <li><a href="{% url '/about.html' %}">Acerca de Nosotros</a></li>
-                            <li><a href="{% url '/servicios/sar.html' %}">Servicios</a></li>
                             
                             <li><a href="{% url '/contacto.html' %}">Contáctenos</a></li>
                             
@@ -380,7 +380,7 @@
 
                 jQuery('.tp-banner').revolution(
                         {
-                            delay: 4000,
+                            delay: 7000,
                             startwidth: 1170,
                             startheight: 551,
                             hideThumbs: 300,

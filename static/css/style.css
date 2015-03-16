@@ -365,23 +365,24 @@ body {
   background-size: cover;
 }
 .page-content.parallax-2 {
-  background: url(../images/pics/parallax-2.jpg);
+  background: url(../images/pics/parallax2.jpg);
   background-size: cover;
+  background-position: center; 
 }
 .page-content.parallax-3 {
-  background: url('../images/pics/parallax-3.jpg');
+  background: url('../images/pics/parallax3.jpg');
   background-size: cover;
 }
 .page-content.parallax-4 {
-  background: url('../images/pics/parallax-4.jpg');
+  background: url('../images/pics/parallax4.jpg');
   background-size: cover;
 }
 .page-content.parallax-5 {
-  background: url('../images/pics/parallax-5.jpg');
+  background: url('../images/pics/parallax5.jpg');
   background-size: cover;
 }
 .page-content.parallax-6 {
-  background: url('../images/pics/parallax-6.jpg');
+  background: url('../images/pics/parallax6.jpg');
   background-size: cover;
 }
 .page-content.parallax-7 {
