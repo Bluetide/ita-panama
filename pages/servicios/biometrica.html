@@ -26,7 +26,7 @@
                              data-easing="Back.easeOut"
                              data-endspeed="500"
                              >
-                            <span style="font-size:70px; font-weight:100; color: #fff;">BIOMÉTRICA</span> <br /> Seguridad y Gestión de Autenticación</br><span style="font-size:18px; color: #fff; font-weight:400;">Soluciones para la <strong style="color:#fff; font-weight:600;">Verificación, Validación y Recaudación</strong></br> de información Biometrica</span>
+                            <span style="font-size:70px; font-weight:100; color: #fff;">SEGURIDAD</span> <br /> Biométrica y Gestión de Autenticación</br><span style="font-size:18px; color: #fff; font-weight:400;">Soluciones para la <strong style="color:#fff; font-weight:600;">Verificación, Validación y Recaudación</strong></br> de información Biometrica</span>
 
                         </div>
 
@@ -61,8 +61,8 @@
         <div class="page-content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 custom-background bkg-darkblue dark">
-                        <div class="info-box">
+                     <a href="#valida"><div class="col-md-4 custom-background bkg-darkblue dark">
+                       <div class="info-box">
                             <div class="icon-container">
                                 <i class="fa fa-hand-o-up"></i>
                             </div>
@@ -72,9 +72,9 @@
                                 <span class="big">VALIDA S.A.B</span>
                             </div><!-- .text-container end -->
                         </div><!-- .info-box end -->
-                    </div><!-- .col-md-3 end -->
+                    </div><!-- .col-md-3 end --></a>
 
-                    <div class="col-md-4 custom-background bkg-blue dark">
+                     <a href="#facefirst"><div class="col-md-4 custom-background bkg-blue dark">
                         <div class="info-box">
                             <div class="icon-container">
                                 <i class="fa fa-user"></i>
@@ -85,9 +85,9 @@
                                 <span class="big">FACE FIRST</span>
                             </div><!-- text-container end -->
                         </div><!-- .info-box end -->
-                    </div><!-- .col-md-3 end -->
+                    </div><!-- .col-md-3 end --></a>
 
-                    <div class="col-md-4 custom-background bkg-darkblue dark">
+                     <a href="#iris"><div class="col-md-4 custom-background bkg-darkblue dark">
                         <div class="info-box">
                             <div class="icon-container">
                                 <i class="fa fa-eye"></i>
@@ -98,7 +98,7 @@
                                 <span class="big">IRIS ON THE MOVE</span>
                             </div><!-- .text-container end -->
                         </div><!-- .info-box end -->
-                    </div><!-- .col-md-3 end -->
+                    </div><!-- .col-md-3 end --></a>
                 </div><!-- .row end -->
             </div><!-- .container-fluid end -->
         </div><!-- .page-content end -->
@@ -115,7 +115,7 @@
                     
                     <div class="col-md-7">
                         <!-- .fancy-heading start -->
-                        <section class="fancy-heading left">
+                        <section class="fancy-heading left" id="valida">
                             <span class="heading-top">VALIDA - Servicio de Autenticación Biométrica</span>
                             <h1>Verificación de indentidad de usuarios mediante el escaneo de su <strong>huella dactilar.</strong> </h1>
                         </section><!-- .fancy-heading end -->
@@ -234,7 +234,7 @@
                     <div class="col-md-12">
                         <!-- .fancy-heading start -->
 
-                        <section class="fancy-heading center">
+                        <section class="fancy-heading center" id="facefirst">
                             <span class="heading-top">Sistema Face First</span>
                             <h1>Identificación de personas basada en el reconocimientos de sus características faciales</h1>
                         </section><!-- .fancy-heading end -->
@@ -398,7 +398,7 @@
             </div><!-- .container end -->
         </div><!-- .page-content end -->
        
-        <div class="page-content parallax parallax-3 dark" data-stellar-background-ratio="1">
+        <div class="page-content parallax parallax-3 dark" data-stellar-background-ratio="1" id="iris">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -418,7 +418,7 @@
 
          </div><!-- .page-content end -->
 
-        <div class="page-content">
+        <div class="page-content" >
             <div class="container mt-80">
 
                 <h6><strong>BENEFICIOS Y CARACTERÍSTICAS</strong></h6>
@@ -525,7 +525,7 @@
 
 
                  <div class="row">
-                     <div class="col-md-8">
+                     <div class="col-md-8" >
                      <h6><strong>SRI SARNOFF CORPORATION</strong></h6>
                      <p><strong>SRI Sarnoff</strong> es reconocido como uno de los laboratorios de investigación más importantes, colaborando con grandes compañías y entidades del gobierno en el desarrollo de tecnologías de punta. </p>
                      </br>
@@ -621,6 +621,20 @@
     jQuery(document).ready(function($){
     $("#navbar1, #navbar2, #navbar3, #navbar4").removeClass("current-menu-item");
     $("#navbar2").addClass("current-menu-item");
+    });
+</script>
+<script type="text/javascript">
+    $('a[href^="#"]').on('click', function(event) {
+
+        var target = $( $(this).attr('href') );
+
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top -150
+            }, 1000);
+        }
+
     });
 </script>
 {% endblock scripts %}
