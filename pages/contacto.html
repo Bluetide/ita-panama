@@ -309,7 +309,9 @@
                 function initialize() {
                     var map;
 
+                    var center = new google.maps.LatLng(6.825227, -75.425788);
                     var nottingham = new google.maps.LatLng(8.982786, -79.509859);
+                    var colombia = new google.maps.LatLng(4.691887, -74.033990);
 
                     var style = [
                         {"featureType": "road",
@@ -330,10 +332,10 @@
 
                     var mapOptions = {
                         // SET THE CENTER
-                        center: nottingham,
+                        center: center,
                         // SET THE MAP STYLE & ZOOM LEVEL
                         mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        zoom: 15,
+                        zoom: 7,
                         // SET THE BACKGROUND COLOUR
                         backgroundColor: "#eeeeee",
                         // REMOVE ALL THE CONTROLS EXCEPT ZOOM
@@ -364,7 +366,13 @@
                         position: nottingham,
                         map: map,
                         icon: pinIcon,
-                        title: 'Absolute Nottingham'
+                        title: 'ITA Panamá'
+                    });
+                    markere = new google.maps.Marker({
+                        position: colombia,
+                        map: map,
+                        icon: pinIcon,
+                        title: 'ITA Colombia'
                     });
                 }
 
