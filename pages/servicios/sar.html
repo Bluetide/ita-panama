@@ -107,7 +107,11 @@
             <!-- .container start -->
             <div class="container">    
                 <div class="row">
-                    <div class="col-md-12">
+					<div class="col-md-4">
+                        <!-- .fancy-heading start -->
+						<img src="{% static 'images/sar/logosar.png' %}" alt="S.A.R Logo">
+                    </div><!-- .col-md-12 end -->
+                    <div class="col-md-8">
                         <!-- .fancy-heading start -->
                         <section class="fancy-heading left">
                             <span class="heading-top">Software de Administración de Rentas.</span>
@@ -227,16 +231,18 @@
         <div class="page-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <img src="{% static 'images/sar/modulos.png' %}" alt="S.A.R Módulos" style="width:93%;"/>
-                    </div><!-- .col-md-4 end -->
-
-                    <div class="col-md-8">
-                        <!-- .fancy-heading start -->
-                        <section class="fancy-heading left">
+					<div class="col-md-12">
+						<section class="fancy-heading left" style="margin-bottom: 40px; padding-bottom: 10px;">
                             <span class="heading-top">MÓDULOS DE LA APLICACIÓN</span>
                             <h2>Gestión integral del procesos de cobro y pago de Impuestos</h2>
                         </section><!-- .fancy-heading end -->
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{% static 'images/sar/modulos2.png' %}" alt="S.A.R Módulos" style="width:90%; margin-top:20px;"/>
+                    </div><!-- .col-md-4 end -->
+
+                    <div class="col-md-8">
 
                         <!-- .infobox start -->
                         <div class="infobox-default">
@@ -281,7 +287,7 @@
                                 <a href="#tab8">Auditoria y Seguridad</a>
                             </li>
                             <li class="">
-                                <a href="#tab9">Entre Otros</a>
+                                <a href="#tab9">Entre Otros...</a>
                             </li>
                         </ul><!-- .tabs end -->
                         
@@ -434,13 +440,13 @@
                             </div><!-- #tab1 content end -->
                             <div id="tab9" class="tab-content" style="display: block;">
                             <section class="fancy-heading center">
-                                <span class="heading-top" style="font-weight:400;">Entre Otros</span>
+                                <span class="heading-top" style="font-weight:400;">Módulos adicionales</span>
                                 
                             </section>
-                                <img src="{% static 'images/sar/seguridadbg.png' %}" class="float-left" alt="Módulo de seguridad y auditoría" style="width: 100px;margin-top: 6px;border-radius: 3px;">
+                                <img src="{% static 'images/sar/plusbg.png' %}" class="float-left" alt="Módulo de seguridad y auditoría" style="width: 100px;margin-top: 6px;border-radius: 3px;">
                                 <p>
                                 <p>
-                                   Si desea saber mas contáctenos a <a href="mailto:info@ita-sa.com">info@ita-sa.com</a>
+                                   Si desea saber más, contáctenos a <a href="mailto:info@ita-sa.com"><strong>info@ita-sa.com</strong></a> o visite nuestra <a href="{% url '/contacto.html' %}"><strong>página de contacto</strong></a> y envíenos un mensaje.
                                     <br>
                                 </p>
                                
