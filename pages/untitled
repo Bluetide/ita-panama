@@ -1,0 +1,220 @@
+ <div class='page-content'>
+                <div class="container-fluid" style="width: 80% !important">
+                <!-- .fancy-heading start -->
+                        <section class="fancy-heading left">
+                            <span class="heading-top">Perfil de la compañía</span>
+                            <h6>Somos una empresa con más de 20 años en el sector de  las Tecnologías de la Información y las Comunicaciones (TIC) con presencia en Latinoamérica y el Caribe. Diseñamos, desarrollamos, integramos e implementamos soluciones tecnológicas e innovadoras orientadas a mejorar los procesos y necesidades de nuestros clientes. con resultados eficaces y medibles.</h6>
+                        </section><!-- .fancy-heading end -->
+                    <div class="row row-equal-height">
+                       <div class="col-md-6 custom-background bkg-grey">
+                            <div class="service-box-2">
+                              
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn' style=></i>
+
+                                <h4>Misión</h4>
+                                <p>
+                                    Diseñar, desarrollar e integrar las nuevas tecnologías para implementar soluciones innovadoras, eficientes y eficaces, a necesidades de gestión informática y de seguridad de nuestros clientes en Latinoamérica y el Caribe, con resultados basados en el cumplimiento de los más altos estándares de calidad, sostenibilidad y de medio ambiente, con acompañamiento permanente de nuestro talento humano especializado.
+                                </p>
+
+                           
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+
+                        <div class="col-md-6 custom-background bkg-grey">
+                            <div class="service-box-2">
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+
+                                <h4>Visión</h4>
+                                <p>    
+Ser en los próximos 5 años, una empresa certificada y reconocida en el sector tecnológico en Latinoamérica y el Caribe, por la calidad y resultados de nuestras soluciones.
+                                </p>
+
+                              
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+                        </div><!-- row end -->
+                        <div class="row row-equal-height">
+                        <div class="col-md-6 custom-background bkg-grey">
+                            <div class="service-box-2">
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+
+                                <h4>ALAS</h4>
+                                <p>
+                                   Somos miembro activo de ALAS, la Asociación Latino Americana de Seguridad
+                                </p>
+
+                                
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+
+                        <div class="col-md-6 custom-background bkg-grey">
+                            <div class="service-box-2">
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+
+                                <h4>Registraduría Nacional del Estado Civil</h4>
+                                <p>
+                                   Somos operador homologado por la Registraduría Nacional del Estado Civil de Colombia bajo el estándar biométrico de huella dactilar ISO19794-2. 
+                                </p>
+
+                                
+                            </div><!-- .service-box-2 end -->
+                        </div><!-- .col-md-3 end -->
+                    </div><!-- .row end -->
+                </div><!-- .container end -->
+            </div><!-- .page-content end -->
+
+
+
+
+
+
+
+<div id="section-portfolio" class="page-content parallax parallax-6 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h3>NUESTRA EMPRESA</h3>
+                            <h1>NOSOTROS</h1>
+                        </div><!-- .section-title end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->
+            </div><!-- .container end -->
+        </div><!-- .page-content.parallax end -->
+
+
+
+
+
+
+
+
+
+
+
+             <div class="page-content custom-background bkg-grey" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                          <!-- .fancy-heading start -->
+                        <section class="fancy-heading left">
+                            <h2>En <strong> Inversiones Tecnológicas de América S.A. </strong>Conocemos sus necesidades.</h2>
+                        </section><!-- .fancy-heading end -->
+
+
+                        <div class="simple-heading left">
+                            <h4>NUESTRA <strong> LÍNEA DE NEGOCIOS</strong> </h4>
+                        </div><!-- .simple-heading-left end -->
+
+                        <p>
+                          Con más de 20 años de experiencia diseñando e implementando soluciones integrales en ingeniería de las TIC hemos aprendido a conocer las verdaderas necesidades y preocupaciones de nuestros clientes. Contamos con un talento humano muy capacitado que nos ha llevado a consolidarnos como empresa reconocida en el mercado. Nuestra profesionalidad en el cumplimiento y calidad de la solución son distintivos de nuestra compañía. 
+                        </p>
+
+                        <a class="btn btn-medium empty black float-left" href="{% url '/nosotros.html' %}">
+                            <span>ACERCA DE NOSOTROS</span>
+                        </a>
+                    </div><!-- .col-md-6 end -->
+
+                    <div class="col-md-7">
+                        
+                         <div class="row">
+
+
+                    <!-- .col-md-3 start -->
+                    <div class="col-md-6">
+                        <div class="process-box-circle">
+                            <div class="img-circled mb-30">
+                                <a href="{% url '/servicios/biometrica.html' %}"><img src="{% static 'images/pics/seguridad.jpg' %}" alt="Seguridad y gestion ciudadana"></a>
+
+                            </div>
+
+                            <h4>SEGURIDAD Y GESTIÓN DE IDENTIFICACIÓN </h4>
+                            <p>
+                               Implementamos soluciones de seguidad biométrica como: <strong>reconocimiento facial</strong> para transporte masivos, aeropuertos, estadios. Sistemas de control de acceso de altos niveles de seguridad mediante <strong>reconocimiento de iris</strong>. Validación biométrica mediante <strong>lectura huella dactilar</strong> y demás soluciones en materia de seguridad ciudadana.
+                            </p>
+                            <a class="read-more left" href="{% url '/servicios/biometrica.html' %}">Conocer más detalles</a>
+                        </div><!-- .service-box-2 end -->
+                    </div><!-- .col-md-3 end -->
+                    
+                    <!-- .col-md-3 start -->
+                    <div class="col-md-6">
+                        <div class="process-box-circle">
+                            <div class="img-circled mb-30">
+                                <a href="{% url '/servicios/sar.html' %}"><img src="{% static 'images/pics/renta.jpg' %}" alt="Software de administración de rentas"></a>
+
+                            </div>
+
+                            <h4>SOFTWARES DE ADMINISTRACIÓN DE RENTAS</h4>
+                            <p>
+                                Herramienta Tecnológicas que ayudan  a  la <strong>modernización y optimización en los procesos tributarios municipales y departamentales.</strong> Desarrollamos un software especializado en el manejo de Impuestos, con tecnología de punta y recursos profesionales de sistematización y asesoría en asistencia tributaria integral enfocado al resultado.
+                            </p>
+                            <a class="read-more left" href="{% url '/servicios/sar.html' %}">Conocermás más de S.A.R.</a>
+                        </div><!-- .service-box-2 end -->
+                    </div><!-- .col-md-3 end -->
+                    </div> <!-- row end -->
+
+
+
+
+
+
+                    </div><!-- .col-md-6 end -->
+                </div><!-- .row end -->  
+                </div><!-- .container-fluid end -->
+        </div><!-- .page-content end -->
+
+
+
+        <div class="gallery-two-col gallery-padding mt-30 mb-30">
+                            <figure class="gallery-item">
+                                <div class="gallery-img zoom-hover">
+                                    <img src="{% static 'images/sar/sar.jpg' %}" alt=""/>
+
+                                    <div class="mask-style-1">
+                                        <div class="mask"></div>
+
+                                        <div class="zoom">
+                                            <a href="{% static 'images/sar/sar.jpg' %}" class="triggerZoom"></a>
+                                        </div>
+                                    </div>
+                                </div><!-- .gallery-img end -->
+                            </figure><!-- .gallery-item end -->
+                            
+                            
+                            <figure class="gallery-item">
+                                <div class="gallery-img zoom-hover">
+                                    <img src="{% static 'images/sar/web.jpg' %}" alt=""/>
+
+                                    <div class="mask-style-1">
+                                        <div class="mask"></div>
+
+                                        <div class="zoom">
+                                            <a href="{% static 'images/sar/web.jpg' %}" class="triggerZoom"></a>
+                                        </div>
+                                    </div>
+                                </div><!-- .gallery-img end -->
+                            </figure><!-- .gallery-item end -->
+                            
+                            <figure class="gallery-item">
+                                <div class="gallery-img zoom-hover">
+                                    <img src="{% static 'images/sar/recaudo.jpg' %}" alt="Recaudo"/>
+
+                                    <div class="mask-style-1">
+                                        <div class="zoom">
+                                            <a href="{% static 'images/sar/recaudo.jpg' %}" class="triggerZoom"></a>
+                                        </div>
+                                    </div>
+                                </div><!-- .gallery-img end -->
+                            </figure><!-- .gallery-item end -->
+                            <figure class="gallery-item">
+                                <div class="gallery-img zoom-hover">
+                                    <img src="{% static 'images/sar/reportes.jpg' %}" alt=""/>
+
+                                    <div class="mask-style-1">
+                                        <div class="zoom">
+                                            <a href="{% static 'images/sar/reportes.jpg' %}" class="triggerZoom"></a>
+                                        </div>
+                                    </div>
+                                </div><!-- .gallery-img end -->
+                            </figure><!-- .gallery-item end -->
+                        </div><!-- .gallery-three-col end -->
