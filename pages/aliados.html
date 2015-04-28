@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block title %}
+<title>Nosotros- Inversiones Tecnológicas de América</title>
+{% endblock %}
+{% block description %}
+<meta name="description" content="ITA es una empresa seria que está a la vanguardia tecnológica. Somos una compañía innovadora que tiene la capacidad para ofrecer soluciones adecuadas en tecnología." />
+{% endblock %}
+
+
+
+{% block content %}
+
+   
+
+   <!-- #page-title.page-title-1 start -->
+        <div id="page-title" class="page-title-1 pt-bkg-image-2 mb-0">
+            <!-- .container start -->
+            <div class="container">
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- .title-container start -->
+                        <section class="title-container">
+                            <div class="title">
+                                <h3>Nuestros Aliados</h3>
+                                <h1>
+                                    Somos miembro activo de ALAS, Asociación Latinoamericana de Seguridad.
+                                </h1>
+                            </div>
+                        </section><!-- .title-container end -->
+                    </div><!-- .col-md-12 end -->
+                </div><!-- .row end -->    
+                            
+            </div><!-- .container end -->
+            <div class="breadcrumbs-container">
+                <!-- .CONTAINER START -->
+                <div class="container">
+                    <!-- .row start -->
+                    <div class="row">
+                        <!-- .col-md-12 start -->
+                        <div class="col-md-12">
+                            <ul class="breadcrumb">
+                                <li>Usted está aquí:</li>
+                                <li><a href="{% url '/index.html' %}">Inicio</a></li>
+                                <li><span class="active">Acerca de nosotros</span></li>
+                            </ul><!-- .breadcrumb end -->
+                        </div><!-- .col-md-12 end -->
+                    </div><!-- .row end -->
+                </div><!-- .container end -->
+            </div>
+
+        </div><!-- #page-title.page-title-1 end -->
+
+       
+         <div class="page-content parallax parallax-6 dark center" data-stellar-background-ratio="1.0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- .fancy-heading start -->
+                            <section class="fancy-heading center">
+                               
+                                <h3>Las soluciones que configuramos e implementamos, además de ser atendidas por nuestro recurso humano experto en nuevos desarrollos tecnológicos, cuenta con el respaldo de diferentes casas matrices europeas y norteamericanas especializadas en inteligencia artificial, al servicio de sectores como el de seguridad, entre otros de base TIC. Así garantizamos los resultados esperados por nuestros clientes, con un soporte técnico de primera línea. </h3>
+
+                                <h6>Entre nuestros aliados principales, están:</h6>
+                            </section><!-- .fancy-heading end -->
+                        </div><!-- .col-md-12 end -->
+                    </div><!-- .row end -->
+
+                    <!-- .row start -->
+                    <div class="row">
+                        <div class="col-md-2">
+
+                        </div><!-- .col-md-4 end -->
+                        <div class="col-md-2">
+                            <div class="img-rounded img-bordered">
+                                <a href="http://www.alas-la.org/" target="_blank"><img src="{% static 'images/socios/alas.jpg' %}" alt="Seguridad y gestion ciudadana"></a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="img-rounded img-bordered">
+                                <a href="http://www.facefirst.com/" target="_blank"><img src="{% static 'images/socios/face.jpg' %}" alt="Seguridad y gestion ciudadana"></a>
+
+                            </div>
+                        </div><!-- .col-md-4 end -->
+
+                        <div class="col-md-2">
+                            <div class="img-rounded img-bordered">
+                                <a href="http://www.sri.com/" target="_blank"><img src="{% static 'images/socios/sarnoff.jpg' %}" alt="Seguridad y gestion ciudadana"></a>
+
+                            </div>
+
+                        </div><!-- .col-md-4 end -->
+                        <div class="col-md-2">
+                             <div class="img-rounded img-bordered">
+                                <a href="#" target="_blank"><img src="{% static 'images/socios/valida.jpg' %}" alt="Seguridad y gestion ciudadana"></a>
+
+                            </div>
+
+                        </div><!-- .col-md-4 end -->
+                        <div class="col-md-2">
+                           
+
+                        </div>
+                    </div><!-- .row end -->
+                </div><!-- .container end -->
+            </div><!-- .page-content.parallax end -->
+
+
+        
+
+{% endblock content %}
+{% block scripts %}
+ <script type="text/javascript">
+    jQuery(document).ready(function($){
+    $("#navbar1, #navbar2, #navbar3, #navbar4").removeClass("current-menu-item");
+    $("#navbar3").addClass("current-menu-item");
+    });
+</script>
+{% endblock scripts %}
