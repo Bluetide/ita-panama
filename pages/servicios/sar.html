@@ -15,7 +15,7 @@
                     <!-- SLIDE ONE -->
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'images/pics/parallax4.jpg' %}"   alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{% static 'images/shutterstock/sar-shutterstock.jpg' %}"   alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <div class="tp-caption tp-big-heading tp-big-heading-bold sfl"
                              data-x="30"
@@ -60,7 +60,7 @@
         <div class="page-content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 custom-background bkg-darkblue dark">
+                      <a href="#page1"><div class="col-md-4 custom-background bkg-darkblue dark">
                         <div class="info-box">
                             <div class="icon-container">
                                 <i class="fa fa-desktop"></i>
@@ -71,9 +71,9 @@
                                 
                             </div><!-- .text-container end -->
                         </div><!-- .info-box end -->
-                    </div><!-- .col-md-3 end -->
+                    </div><!-- .col-md-3 end --></a>
 
-                    <div class="col-md-4 custom-background bkg-blue dark">
+                    <a href="#page2"><div class="col-md-4 custom-background bkg-blue dark">
                         <div class="info-box">
                             <div class="icon-container">
                                 <i class="fa fa-globe"></i>
@@ -84,9 +84,9 @@
                                 
                             </div><!-- text-container end -->
                         </div><!-- .info-box end -->
-                    </div><!-- .col-md-3 end -->
+                    </div><!-- .col-md-3 end --></a>
 
-                    <a  href="http://www.helpdesk.com" target="_blank"><div class="col-md-4 custom-background bkg-darkblue dark">
+                    <a  href="#page3"><div class="col-md-4 custom-background bkg-darkblue dark">
                         <div class="info-box">
                             <div class="icon-container">
                                 <i class="fa fa-life-ring"></i>
@@ -113,7 +113,7 @@
                     </div><!-- .col-md-12 end -->
                     <div class="col-md-8">
                         <!-- .fancy-heading start -->
-                        <section class="fancy-heading left">
+                        <section class="fancy-heading left" id="page1">
                             <span class="heading-top">Gestión de Procesos Hacendarios</span>
                             <h3>Ayudamos  a  la optimización  de los procesos hacendarios de los entes territoriales (Departamentos, Provincias, Municipios) a través de la plataforma SAR, software especializado con tecnología de punta, para la automatización de los procesos. Con esto le ayudamos a conseguir beneficios tales como incremento en el recaudo, mejora del servicio al usuario, mayor transparencia en los procesos, reportes dinámicos en línea, entre otros, que ayudan a la consecución de los objetivos de Hacienda Pública. </h3>
                         </section><!-- .fancy-heading end -->
@@ -247,7 +247,7 @@
             <div class="container">
                 <div class="row">
 					<div class="col-md-12">
-						<section class="fancy-heading left" style="margin-bottom: 40px; padding-bottom: 10px;">
+						<section class="fancy-heading left" style="margin-bottom: 40px; padding-bottom: 10px;" id="page2">
                             <span class="heading-top">Gestión de Carteras de Tránsito  y Transporte</span>
                         </section><!-- .fancy-heading end -->
                         
@@ -347,7 +347,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <!-- .fancy-heading start -->
-                        <section class="fancy-heading center">
+                        <section class="fancy-heading center" id="page3">
                             <span class="heading-top">Soluciones de Recaudo</span>
                             <h3>Contamos con una herramienta moderna y de alta tecnología para el manejo del recaudo, con el fin de mejorar la facilidad, desempeño y capacidad de brindar servicios que respondan a las necesidades y expectativas de los clientes, en materia de recaudo, a la vez que fortalece la confiabilidad y la seguridad.</h3>
                         </section><!-- .fancy-heading end -->
@@ -450,6 +450,20 @@
     jQuery(document).ready(function($){
     $("#navbar1, #navbar2, #navbar3, #navbar4, #navbar5, #navbar6").removeClass("current-menu-item");
     $("#navbar3").addClass("current-menu-item");
+    });
+</script>
+<script type="text/javascript">
+    $('a[href^="#"]').on('click', function(event) {
+
+        var target = $( $(this).attr('href') );
+
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top -150
+            }, 1000);
+        }
+
     });
 </script>
 {% endblock scripts %}
