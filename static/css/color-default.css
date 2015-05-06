@@ -162,7 +162,7 @@ strong a,
 
 .section-title-container .section-title,
 .section-title-container .section-title::before{
-   background-color: rgba(0, 107, 135, 0.70);
+   background-color: rgba(49, 57, 63, 0.80);
 }
 
 .service-box-12:hover .icon-container i{
