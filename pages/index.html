@@ -250,11 +250,11 @@ Ser en los próximos 5 años, una empresa certificada y reconocida en el sector 
                         <div class="row row-equal-height mt-0">
                         <div class="col-md-6 custom-background bkg-grey">
                             <div class="service-box-2">
-                                <i class="linecons-clipboard triggerAnimation animated" data-animate='zoomIn'></i>
+                                <img src="{% static 'images/sb/alas.jpg' %}" alt="" style="max-width: 20%"/> 
 
-                                <h4>ALAS</h4>
+                                <h4>ALAS - Miembro Activo</h4>
                                 <p>
-                                   Somos miembro activo de ALAS, la Asociación Latino Americana de Seguridad
+                                   Somos miembro activo de ALAS, Asociación Latinoamericana de Seguridad
                                 </p>
 
                                 
@@ -263,7 +263,7 @@ Ser en los próximos 5 años, una empresa certificada y reconocida en el sector 
 
                         <div class="col-md-6 custom-background bkg-grey">
                             <div class="service-box-2">
-                                <i class="linecons-document triggerAnimation animated" data-animate='zoomIn'></i>
+                                <img src="{% static 'images/shutterstock/logopal.png' %}" alt="" style="max-width: 20%"/> 
 
                                 <h4>Registraduría Nacional del Estado Civil</h4>
                                 <p>
@@ -308,9 +308,7 @@ Ser en los próximos 5 años, una empresa certificada y reconocida en el sector 
                          Asesoramos, diseñamos, desarrollamos e implementamos arquitecturas tecnológicas a diferentes escalas y funcionalidades, dirigidas a mejorar la eficiencia en diferentes procesos, con soluciones informáticas y de seguridad, desde la nueva generación de software y hardware existentes en el mercado.
                         </p>
 
-                        <a class="btn btn-medium empty black float-left" href="{% url '/servicios/sar.html' %}">
-                            <span>NUESTRAS UNIDADES DE NEGOCIO</span>
-                        </a>
+                       
                     </div><!-- .col-md-6 end -->
 
                     <div class="col-md-7">
@@ -322,9 +320,11 @@ Ser en los próximos 5 años, una empresa certificada y reconocida en el sector 
                     <div class="col-md-6">
                         <div class="process-box-circle">
                             <div class="img-circled mb-30">
-                                <a href="{% url '/servicios/sar.html' %}"><img src="{% static 'images/pics/renta.jpg' %}" alt="Seguridad y gestion ciudadana"></a>
-
+                                <a href="{% url '/servicios/sar.html' %}"><img src="{% static 'images/itatpls/slider1.jpg' %}" alt="Seguridad y gestion ciudadana"></a>
+     
                             </div>
+                             <a class="btn btn-medium empty black float-left" href="{% url '/servicios/sar.html' %}">
+                            <span>Conócenos</span></a>
                         </div><!-- .service-box-2 end -->
                     </div><!-- .col-md-3 end -->
                     
@@ -333,8 +333,11 @@ Ser en los próximos 5 años, una empresa certificada y reconocida en el sector 
                         <div class="process-box-circle">
                             <div class="img-circled mb-30">
                                 <a href="{% url '/servicios/biometrica.html' %}"><img src="{% static 'images/pics/seguridad.jpg' %}" alt="Software de administración de rentas"></a>
-
+                                 
                             </div>
+                            <a class="btn btn-medium empty black float-left" href="{% url '/servicios/biometrica.html' %}">
+                            <span>Conócenos</span>
+                        </a>
                         </div><!-- .service-box-2 end -->
                     </div><!-- .col-md-3 end -->
                     </div> <!-- row end -->
@@ -431,6 +434,7 @@ Ser en los próximos 5 años, una empresa certificada y reconocida en el sector 
                             </li><!-- li end -->
                         </ul><!-- .fa-ul.large-icons end -->
                     </div><!-- .col-md-6 end -->
+
 
                     <!-- .col-md-6 start -->
                     <div class="col-md-6 mt-0">
@@ -552,6 +556,10 @@ Ser en los próximos 5 años, una empresa certificada y reconocida en el sector 
                                 </div>
                             </li>
                         </ul><!-- .fa-ul.large-icons end -->
+
+                         <a class="btn btn-medium empty black float-left mt-80" href="{% url '/servicios/biometrica.html' %}">
+                            <span>Conoce más</span></a>
+
                     </div><!-- .col-md-6 end -->
                 </div>
 
@@ -676,7 +684,7 @@ Entre nuestros aliados principales, están:
                             </div>
                                                        <div class="col-md-6 " >
                             
-                      <div class="gallery-four-col gallery-padding mt-80">
+                      <div class="gallery-three-col gallery-padding mt-80">
                             <figure class="gallery-item">
                                   <a href="http://www.facefirst.com">
                                   <div class="gallery-img zoom-hover">
@@ -716,18 +724,7 @@ Entre nuestros aliados principales, están:
                                         </div>
                                     </div>
                                 </div><!-- .gallery-img end --></a>
-                            </figure><!-- .gallery-item end -->
-                            <figure class="gallery-item">
-                                 <a href="http://www.alas-la.org"> <div class="gallery-img zoom-hover">
-                                  <img src="{% static 'images/sb/alas.jpg' %}" alt=""/> 
-
-                                    <div class="mask-style-1">
-                                        <div class="zoom">
-                                           
-                                        </div>
-                                    </div>
-                                </div><!-- .gallery-img end --></a>
-                            </figure><!-- .gallery-item end -->
+                          
                         </div><!-- .gallery-three-col end -->
 
 
@@ -751,8 +748,8 @@ Entre nuestros aliados principales, están:
                     <div class="col-md-12">
                         <!-- .fancy-heading start -->
                         <section class="fancy-heading center">
-                            <span class="heading-top">¿Le interesan nuestra soluciones? </span>
-                            <h2>Contáctenos y agendaremos una cita para conocer sobre sus necesidades y presentarle las soluciones que ofrecemos.</h2>
+                            <span class="heading-top">¿Está usted interesado en trabajar con nosotros? </span>
+                            <h2> Agendaremos una cita para atenderle de forma personalizada y ofrecerle nuestras soluciones a su problema.</h2>
                         </section><!-- .fancy-heading end -->
                     </div><!-- .col-md-12 end -->
                 </div><!-- .row end -->
