@@ -50,30 +50,48 @@
         </div><!-- #page-title.page-title-1 end -->
 
        
-         <div class="page-content parallax parallax-6 dark center" data-stellar-background-ratio="1.0">
+         <div class="page-content mt-80">
                 <div class="container">
                     <div class="row">
-                    <div class="col-md-2"></div>
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <!-- .fancy-heading start -->
-                            <section class="fancy-heading center">
-                               
-                                <h5><strong>¿Necesita la asistencia de nuestros expertos?</strong> <br><br><br></h5>
+                            <section class="fancy-heading">
+                                <span style="font-size: 2em; color: #006B87;">
+                                    ¿Necesita la asistencia de nuestros expertos?</br>
+                                </span>
 
-                                <h3><strong>Ingrese en <a href="#"><strong>este enlace</strong></a> para que su necesidad sea atendida. <br><br><br> </strong></h3>
-
-
-
-
-
-                                <h5><strong>Espacio reservado solo para brindar soporte técnico a  usuarios de las diversas soluciones informáticas que Inversiones Tecnológicas de América provee.</strong></h3>
                             </section><!-- .fancy-heading end -->
+                            <h5>Ingrese en <a href="#"><strong>este enlace</strong></a> para que su necesidad sea atendida.</h5>
+                            <p>Espacio reservado solo para brindar soporte técnico a  usuarios de las diversas soluciones informáticas que Inversiones Tecnológicas de América provee.</p>
                         </div><!-- .col-md-12 end -->
                     </div><!-- .row end -->
 
                     <!-- .row start -->
                 </div><!-- .container end -->
-            </div><!-- .page-content.parallax end -->
+                    </div><!-- .page-content.parallax end -->
+                    <div class="page-content parallax dark parallax-colored">
+                    <!-- .container start -->
+                    <div class="container">
+                        <!-- .row start -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- .call-to-action start -->
+                                <div class="call-to-action clearfix">
+                                    <div class="text">
+                                        <h2>¿Interesado en alguno de nuestros servicios?</h2>
+                                        <p>
+                                            Agendaremos una cita para atenderle de forma personalizada y ofrecerle nuestras soluciones a su problema.
+                                        </p>
+                                    </div>
+
+                                    <a href='{% url '/contacto.html' %}' class='btn btn-medium white empty'>
+                                        <span style="font-size: 1em; font-weight: lighter; color: #fff;">Contáctenos</span>
+                                    </a>
+                                </div><!-- .call-to-action end -->
+                            </div><!-- .col-md-12 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+                </div><!-- .page-content end -->
     
 {% endblock content %}
 {% block scripts %}
