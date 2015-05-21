@@ -4599,7 +4599,7 @@ font-size: 10px;
   transition: all 0.2s ease 0s;
 }
 .service-box-10 .service-detail-container {
-  background-color: #f6f6f6;
+  background-color: none;
   padding: 50px 30px 30px;
   top: -35px;
   position: relative;
