@@ -1643,7 +1643,10 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .tp-rightarrow.preview1:after				{	content: '\e825';  }
 .tp-leftarrow.preview1:after				{	content: '\e824';  }
 
-.tparrows.preview1:hover:after 				{	background:rgba(255,255,255,1); color:#aaa}
+.tparrows.preview1:hover:after {
+background: rgba(0, 0, 0, 0.52);
+color: #FFF;
+}
 
 .tparrows.preview1 .tp-arr-imgholder 		{	background-size:cover; background-position:center center; display:block;width:100%;height:100%;position:absolute;top:0px;
 												-webkit-transition: -webkit-transform 0.3s;
