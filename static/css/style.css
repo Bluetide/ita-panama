@@ -7615,7 +7615,7 @@ opacity: 0.0!important;
   top: 0;
   left: 0;
   z-index: 1;
-  background: transparent url('../images/grid.png') repeat;
+  /*background: transparent url('../images/grid.png') repeat;*/
   -webkit-backface-visibility: hidden;
 }
 .banner-overlay{
@@ -7624,6 +7624,11 @@ opacity: 0.0!important;
   height: 100%;
   top: 0;
   left: 0;
-  background: transparent url('../images/grid.png') repeat;
+  /*background: transparent url('../images/grid.png') repeat; */
   -webkit-backface-visibility: hidden;
+}
+@media screen and (max-width: 1483px) {
+    .info-box .text-container .big {
+        font-size: 20px;
+    }
 }
