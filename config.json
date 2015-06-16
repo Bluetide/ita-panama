@@ -1,1 +1,6 @@
-{"aws-bucket-name":"itapty","aws-access-key":"AKIAILMRFWKMPTUWCZLQ","aws-bucket-website":"itapty.s3-website-us-east-1.amazonaws.com","prettify":true,"port":8966}
+{
+    "aws-access-key": "AKIAILMRFWKMPTUWCZLQ",
+    "aws-bucket-name": "itapty",
+    "aws-bucket-website": "itapty.s3-website-us-east-1.amazonaws.com",
+    "prettify": true
+}
