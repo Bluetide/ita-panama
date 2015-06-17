@@ -7605,6 +7605,9 @@ padding: 70px 30px 60px!important;
 .mb-40{
 margin-bottom:40px!important;
 }
+.mt-60{
+margin-top:60px!important;
+}
 .tp-arr-imgholder {
 opacity: 0.0!important;
 }
@@ -7632,3 +7635,4 @@ opacity: 0.0!important;
         font-size: 20px;
     }
 }
+
