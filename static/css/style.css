@@ -7178,7 +7178,7 @@ ul.aside_widgets {
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-bottom: none;
 }
 .rpw_posts_widget li img {
@@ -7634,5 +7634,8 @@ opacity: 0.0!important;
     .info-box .text-container .big {
         font-size: 20px;
     }
+}
+.pb-0 {
+padding-bottom:0px;
 }
 

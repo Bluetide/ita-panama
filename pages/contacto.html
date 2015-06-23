@@ -11,7 +11,7 @@
 {% block content %}
 
    <!-- #page-title.page-title-1 start -->
-        <div id="page-title" class="page-title-1 " style="background-image: url('{% static 'images/shutterstock/biometrica-shutterstock.jpg'%}')">
+        <div id="page-title" class="page-title-1 " style="background-image: url('{% static 'images/shutterstock/dactilar.jpg'%}')">
             <!-- .container start -->
             <div class="container">
                 <!-- .row start -->
@@ -153,6 +153,31 @@
                             <li>
                                 <i class="fa fa-envelope-o"></i>
                                 <strong>Email: </strong><a href="mailto:info@ita-sa.com">info@ita-sa.com</a>
+                                <hr>
+                            </li>
+                        </ul>
+                        
+                        <h4>México</h4>
+                         <ul class="contact-info-list">
+                        
+                            <li>
+                                <i class="fa fa-home"></i>
+                                <strong>Dirección: </strong>Paseo de la Reforma 342, Torre New York Life, piso 26, Col. Juárez, Ciudad de México.
+                            </li>
+
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <strong>Teléfono: </strong>+52 559 17 111
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <strong>Código Postal: </strong><a href="mailto:info@ita-sa.com">06600</a>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-envelope-o"></i>
+                                <strong>Email: </strong><a href="mailto:info@ita-sa.com">info@ita-sa.com</a>
+                                <hr>
                             </li>
                         </ul>
                         <h4>Panamá</h4>
@@ -310,9 +335,10 @@
                 function initialize() {
                     var map;
 
-                    var center = new google.maps.LatLng(6.825227, -75.425788);
+                    var center = new google.maps.LatLng(14.312901, -87.195078);
                     var nottingham = new google.maps.LatLng(8.982786, -79.509859);
                     var colombia = new google.maps.LatLng(4.691887, -74.033990);
+                    var mexico = new google.maps.LatLng(19.425669, -99.167566);
 
                     var style = [
                         {"featureType": "road",
@@ -336,7 +362,7 @@
                         center: center,
                         // SET THE MAP STYLE & ZOOM LEVEL
                         mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        zoom: 7,
+                        zoom: 5,
                         // SET THE BACKGROUND COLOUR
                         backgroundColor: "#eeeeee",
                         // REMOVE ALL THE CONTROLS EXCEPT ZOOM
@@ -362,19 +388,26 @@
                     //CREATE A CUSTOM PIN ICON
                     var marker_image = '{% static 'images/pin.png' %}';
                     var pinIcon = new google.maps.MarkerImage(marker_image, null, null, null, new google.maps.Size(21, 34));
-
+                    marker = new google.maps.Marker({
+                        position: mexico,
+                        map: map,
+                        icon: pinIcon,
+                        title: 'ITA México'
+                    });
                     marker = new google.maps.Marker({
                         position: nottingham,
                         map: map,
                         icon: pinIcon,
                         title: 'ITA Panamá'
                     });
-                    markere = new google.maps.Marker({
+                    marker = new google.maps.Marker({
                         position: colombia,
                         map: map,
                         icon: pinIcon,
                         title: 'ITA Colombia'
                     });
+                    
+                    
                 }
 
                 google.maps.event.addDomListener(window, 'load', initialize);

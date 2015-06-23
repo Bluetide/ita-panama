@@ -95,7 +95,7 @@
                     <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
   
                         <img src="{% static 'images/shutterstock/slide-2.jpg' %}"   alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
+                        <div class="video-overlay" style="background-color: rgba(0, 0, 0, 0.3);"></div>
                         <div class="tp-caption tp-big-heading tp-big-heading-bold sfl start"
                          data-x="000"
                          data-y="100"
@@ -244,7 +244,7 @@
                 </div><!-- .container end -->
             </div><!-- .page-content end -->
 
-        <div id="section-portfolio-2" class="page-content parallax parallax-2 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.1" style="background-image: url('{% static 'images/shutterstock/nosotros.jpg'%}')">
+        <div id="section-portfolio-2" class="page-content parallax parallax-2 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.1" style="background-image: url('{% static 'images/shutterstock/binary.jpg'%}')">
             <div class="banner-overlay" style="background-color: rgba(0, 0, 0, 0.3);"></div>
             <div class="container">
                 <div class="row">
@@ -319,7 +319,7 @@
                 </div><!-- .container-fluid end -->
         </div><!-- .page-content end -->
 
- <div id="section-portfolio-2" class="page-content parallax parallax-5 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.1"  style="background-image: url('{% static 'images/shutterstock/data.jpg'%}')">
+ <div id="section-portfolio-2" class="page-content parallax parallax-5 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.1"  style="background-image: url('{% static 'images/shutterstock/code.jpg'%}')">
             <div class="banner-overlay" style="background-color: rgba(0, 0, 0, 0.3);"></div>
             <div class="container">
                 <div class="row">
@@ -419,7 +419,7 @@
                 </div>
                 </div>
 
-             <div id="section-portfolio-2" class="page-content parallax parallax-5 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.1" style="background-image: url('{% static 'images/shutterstock/dactilar.jpg'%}')">
+             <div id="section-portfolio-2" class="page-content parallax parallax-5 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.1" style="background-image: url('{% static 'images/shutterstock/iris.jpg'%}')">
                         <div class="banner-overlay" style="background-color: rgba(0, 0, 0, 0.3);"></div>
                         <div class="container">
                             <div class="row">
@@ -546,7 +546,7 @@
                        <div class="col-md-3 custom-background bkg-grey">
                             <div class="service-box-2">
                               
-                                <i class="linecons-search triggerAnimation animated" data-animate='zoomIn' style=></i>
+                                <i class="linecons-search triggerAnimation animated" data-animate='zoomIn' style="color:rgba(168, 186, 67, 1);"></i>
 
                                 <h4>Consultoría</h4>
                                 <p>
@@ -559,7 +559,7 @@
 
                         <div class="col-md-3 custom-background bkg-grey">
                             <div class="service-box-2">
-                                <i class="linecons-shield triggerAnimation animated" data-animate='zoomIn'></i>
+                                <i class="linecons-shield triggerAnimation animated" data-animate='zoomIn' style="color:rgba(168, 186, 67, 1);"></i>
 
                                 <h4>Soluciones</h4>
                                 <p>    
@@ -573,7 +573,7 @@
                   
                         <div class="col-md-3 custom-background bkg-grey">
                             <div class="service-box-2">
-                                <i class="linecons-pencil triggerAnimation animated" data-animate='zoomIn'></i>
+                                <i class="linecons-pencil triggerAnimation animated" data-animate='zoomIn' style="color:rgba(168, 186, 67, 1);"></i>
 
                                 <h4>Tecnología</h4>
                                 <p>
@@ -586,7 +586,7 @@
 
                         <div class="col-md-3 custom-background bkg-grey">
                             <div class="service-box-2">
-                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn'></i>
+                                <i class="linecons-tools triggerAnimation animated" data-animate='zoomIn' style="color:rgba(168, 186, 67, 1);"></i>
 
                                 <h4>Implementación</h4>
                                 <p>
@@ -602,7 +602,7 @@
 
 
      <div id="section-portfolio" class="page-content parallax parallax-5 section-title-container mb-0 scroll-0" data-stellar-background-ratio="1.1" style="background-image: url('{% static 'images/shutterstock/aliados.jpg'%}')">
-            <div class="banner-overlay" style="background-color: rgba(0, 0, 0, 0.3);"></div>
+            <div class="banner-overlay" style="background-color: rgba(0, 0, 0, 0.1);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -805,9 +805,10 @@
                 function initialize() {
                     var map;
 
-                    var center = new google.maps.LatLng(6.825227, -75.425788);
+                    var center = new google.maps.LatLng(14.312901, -87.195078);
                     var nottingham = new google.maps.LatLng(8.982786, -79.509859);
                     var colombia = new google.maps.LatLng(4.691887, -74.033990);
+                    var mexico = new google.maps.LatLng(19.425669, -99.167566);
 
                     var style = [
                         {"featureType": "road",
@@ -831,7 +832,7 @@
                         center: center,
                         // SET THE MAP STYLE & ZOOM LEVEL
                         mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        zoom: 7,
+                        zoom: 5,
                         // SET THE BACKGROUND COLOUR
                         backgroundColor: "#eeeeee",
                         // REMOVE ALL THE CONTROLS EXCEPT ZOOM
@@ -857,19 +858,26 @@
                     //CREATE A CUSTOM PIN ICON
                     var marker_image = '{% static 'images/pin.png' %}';
                     var pinIcon = new google.maps.MarkerImage(marker_image, null, null, null, new google.maps.Size(21, 34));
-
+                    marker = new google.maps.Marker({
+                        position: mexico,
+                        map: map,
+                        icon: pinIcon,
+                        title: 'ITA México'
+                    });
                     marker = new google.maps.Marker({
                         position: nottingham,
                         map: map,
                         icon: pinIcon,
                         title: 'ITA Panamá'
                     });
-                    markere = new google.maps.Marker({
+                    marker = new google.maps.Marker({
                         position: colombia,
                         map: map,
                         icon: pinIcon,
                         title: 'ITA Colombia'
                     });
+                    
+                    
                 }
 
                 google.maps.event.addDomListener(window, 'load', initialize);
