@@ -342,7 +342,7 @@
             </div><!-- .container end -->
         </div><!-- .page-content.parallax end -->
 
-        <div class="page-content custom-background bkg-grey" data-stellar-background-ratio="1.4">
+        <div class="page-content custom-background " data-stellar-background-ratio="1.4">
             <div class="container">
 
                 <div class="row">
@@ -502,14 +502,14 @@
     });
 </script>
 <script type="text/javascript">
-    $('a[href^="#"]').on('click', function(event) {
+    $('a[href^="#page"]').on('click', function(event) {
 
         var target = $( $(this).attr('href') );
 
         if( target.length ) {
             event.preventDefault();
             $('html, body').animate({
-                scrollTop: target.offset().top -150
+                scrollTop: target.offset().top -180
             }, 1000);
         }
 

@@ -123,7 +123,9 @@
                 <div class="row mb-80">
 
                     <div class="col-md-6">
-                        <img src="{% static 'images/video.jpg' %}">
+                        <div class="responsive-container">
+                        <iframe src="https://player.vimeo.com/video/129314314?color=006B87&title=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
 
 
                     </div><!-- .col-md-6 end -->
@@ -452,7 +454,7 @@
         if( target.length ) {
             event.preventDefault();
             $('html, body').animate({
-                scrollTop: target.offset().top -150
+                scrollTop: target.offset().top -180
             }, 1000);
         }
 
