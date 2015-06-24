@@ -765,7 +765,7 @@ max-width: 85%;
 }
 #top-bar-wrapper #top-bar #quick-links li a,
 #top-bar-wrapper #top-bar #quick-links li span {
-  border-right: 1px solid #a0a9b1;
+  /*border-right: 1px solid #a0a9b1;*/
   padding-right: 10px;
   margin-right: 10px;
   display: inline-block;
