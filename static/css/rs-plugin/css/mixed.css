@@ -53,16 +53,6 @@
     line-height: 41px;
 }
 
-.tp-big-heading::after{
-    position: absolute;
-    display: block;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 70px;
-    height: 1px;
-    background-color: #fff;
-}
 
 .tp-simple-heading{
     position: relative;
