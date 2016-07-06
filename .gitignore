@@ -56,3 +56,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Config.json S3
+# config.json
