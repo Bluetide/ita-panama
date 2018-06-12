@@ -1,8 +1,11 @@
 {
-	"optimize": [
-    	"js",
-    	"css"
-	],
+    "aws-access-key": "AKIAJNMDD3LZ5QJIJWMA",
+    "aws-bucket-name": "ita-sa.com",
+    "aws-bucket-website": "ita-sa.com.s3-website-us-east-1.amazonaws.com",
+    "optimize": [
+        "js",
+        "css"
+    ],
     "prettify": true,
     "site-url": "http://ita-sa.com"
 }
