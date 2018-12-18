@@ -60,3 +60,4 @@ target/
 # Config.json S3
 # config.json
 config.json
+.history
